@@ -1,0 +1,35 @@
+@media (max-width: 900px) {
+  .coursework-table-wrapper {
+    width: 100% !important;
+    padding: 0 !important;
+    padding-top: 1em !important;
+  }
+
+  .coursework-table td {
+    padding: 0.15rem !important;
+    font-size: 0.85em !important;
+  }
+
+  .table-title-td {
+    line-height: 1.15 !important;
+  }
+
+  .table-subject-td {
+  }
+
+  .table-type-td {
+  }
+
+  .table-session-td {
+  }
+
+  .table-score-td {
+  }
+
+  .table-mark-td {
+  }
+
+  .table-comment-td {
+    line-height: 1.15 !important;
+  }
+}

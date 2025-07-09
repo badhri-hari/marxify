@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "group": "Group 1: Studies in Language and Literature",
+      "subjects": [
+        { "code": "LIT_ENG", "name": "English A: Literature" },
+        {
+          "code": "LANG_LIT_ENG",
+          "name": "English A: Language and Literature"
+        },
+        {
+          "code": "LIT_OTHER",
+          "name": "Language A: Literature (Other Language)"
+        },
+        { "code": "LANG_LIT_OTHER", "name": "Language A: Lang and Lit (Other)" }
+      ]
+    },
+    {
+      "group": "Group 2: Language Acquisition",
+      "subjects": [
+        { "code": "LANG_B_FR", "name": "French B" },
+        { "code": "LANG_B_SP", "name": "Spanish B" },
+        { "code": "LANG_B_OTHER", "name": "Language B (Other)" },
+        { "code": "AB_INITIO_SP", "name": "Spanish ab initio" },
+        { "code": "AB_INITIO_FR", "name": "French ab initio" },
+        { "code": "AB_INITIO_OTHER", "name": "Language ab initio (Other)" }
+      ]
+    },
+    {
+      "group": "Group 3: Individuals and Societies",
+      "subjects": [
+        { "code": "ECON", "name": "Economics" },
+        { "code": "BUS_MAN", "name": "Business Management" },
+        { "code": "GEOGRAPHY", "name": "Geography" },
+        { "code": "HISTORY", "name": "History" },
+        { "code": "PHILOSOPHY", "name": "Philosophy" },
+        { "code": "PSYCH", "name": "Psychology" },
+        { "code": "SOC_CULT_ANTH", "name": "Social and Cultural Anthropology" },
+        { "code": "WORLD_RELS", "name": "World Religions" },
+        { "code": "ENV_SYS_SOC", "name": "Environmental Systems and Societies" }
+      ]
+    },
+    {
+      "group": "Group 4: Sciences",
+      "subjects": [
+        { "code": "BIOLOGY", "name": "Biology" },
+        { "code": "CHEMISTRY", "name": "Chemistry" },
+        { "code": "PHYSICS", "name": "Physics" },
+        { "code": "SPORT_SCI", "name": "Sports, Exercise and Health Science" },
+        { "code": "DESIGN_TECH", "name": "Design Technology" },
+        { "code": "COMP_SCI", "name": "Computer Science" }
+      ]
+    },
+    {
+      "group": "Group 5: Mathematics",
+      "subjects": [
+        { "code": "MATH_AA", "name": "Mathematics: Analysis and Approaches" },
+        {
+          "code": "MATH_AI",
+          "name": "Mathematics: Applications and Interpretation"
+        }
+      ]
+    },
+    {
+      "group": "Group 6: The Arts",
+      "subjects": [
+        { "code": "VISUAL_ARTS", "name": "Visual Arts" },
+        { "code": "THEATRE", "name": "Theatre" },
+        { "code": "MUSIC", "name": "Music" },
+        { "code": "FILM", "name": "Film" },
+        { "code": "DANCE", "name": "Dance" }
+      ]
+    }
+  ]
+}

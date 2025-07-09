@@ -1,0 +1,84 @@
+.coursework-table-wrapper {
+  width: calc(100% - 2rem);
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.coursework-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.coursework-table th {
+  padding: 0.25rem;
+  background-color: #f4f4f4;
+  font-weight: 600;
+  border: 1px solid #666;
+}
+
+.coursework-table td {
+  padding: 0.4rem;
+  text-align: center;
+  border: 1px solid #666;
+}
+
+.coursework-table tbody tr:nth-child(even) {
+  background-color: #f1466841;
+}
+
+.coursework-table tbody tr:nth-child(even):hover {
+  background-color: #f1466849;
+}
+
+.coursework-table tbody tr:nth-child(odd):hover {
+  background-color: #f0f0f0;
+}
+
+.table-title-td {
+  width: auto;
+  font-size: 0.95em;
+  line-height: 1.5;
+  word-break: break-word;
+  text-align: left !important;
+}
+
+.table-title-td > * {
+  color: #3391ff;
+}
+
+.table-title-td > *:hover {
+  color: white;
+}
+
+.table-subject-td {
+  width: auto;
+}
+
+.table-type-td {
+  width: auto;
+}
+
+.table-session-td {
+  width: 8%;
+}
+
+.table-score-td {
+  width: 6%;
+}
+
+.table-mark-td {
+  width: 6%;
+}
+
+.table-comment-td {
+  font-size: 0.9em;
+  line-height: 1.5;
+  word-break: break-word;
+  text-align: left !important;
+}
+
+.no-results {
+  font-style: italic;
+  color: #666;
+}

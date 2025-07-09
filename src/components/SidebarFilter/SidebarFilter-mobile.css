@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+  aside {
+    width: auto;
+    padding: 16px;
+    border-bottom: 0.5px solid black;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  .sidebar-h2 {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+
+  .sidebar-hr {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .cw-buttons {
+    gap: 9px;
+  }
+
+  .tok-separator {
+    display: none;
+  }
+
+  .checkbox-group {
+    gap: 5px;
+  }
+
+  .series-separator::before,
+  .series-separator::after {
+    width: 42%;
+    height: 1px;
+  }
+
+  .year-separator::before,
+  .year-separator::after {
+    width: 43%;
+    height: 1.1px;
+  }
+
+  .clear-filters-container {
+    margin-top: -4px;
+    margin-bottom: 0;
+  }
+}
