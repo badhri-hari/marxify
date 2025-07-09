@@ -1,5 +1,4 @@
 import "./Footer.css";
-import "./Footer-mobile.css";
 
 export default function Footer() {
   return (
