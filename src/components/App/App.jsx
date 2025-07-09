@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { FaTh } from "react-icons/fa";
 import { PiListLight } from "react-icons/pi";
 
-import Header from "../components/Header/Header";
-import SidebarFilter from "../components/SidebarFilter/SidebarFilter";
-import CourseworkCards from "../components/CourseworkCards/CourseworkCards";
-import CourseworkTable from "../components/CourseworkTable/CourseworkTable";
-import Footer from "../components/Footer/Footer";
+import Header from "../Header/Header";
+import SidebarFilter from "../SidebarFilter/SidebarFilter";
+import CourseworkCards from "../CourseworkCards/CourseworkCards";
+import CourseworkTable from "../CourseworkTable/CourseworkTable";
+import Footer from "../Footer/Footer";
 
 import "./App.css";
 import "./App-dark-mode.css";

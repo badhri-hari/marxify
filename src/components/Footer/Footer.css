@@ -3,8 +3,8 @@ footer {
   text-align: center;
   align-content: center;
   font-style: italic;
+  line-height: 1.5;
   background-color: #f14668;
-  font-weight: 600;
 }
 
 .footer-link:hover {
