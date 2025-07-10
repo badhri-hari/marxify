@@ -50,10 +50,8 @@ export default function Sidebar({
   }, [letterGrades, numberGrades, selectedCoursework, setSelectedGrades]);
 
   useEffect(() => {
-    if (isTokSelected) {
-      setSelectedSubject("");
-    }
-  }, [isTokSelected, setSelectedSubject]);
+    setSelectedSubject("");
+  }, [selectedCoursework, setSelectedSubject]);
 
   useEffect(() => {
     if (selectedCoursework === "" && selectedLevels.length > 0) {
