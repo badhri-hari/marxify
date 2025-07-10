@@ -50,7 +50,10 @@ export function filterCoursework(
       }
     }
 
-    if (selectedSubject && subject !== selectedSubject) {
+    if (
+      selectedSubject &&
+      subject.trim().toLowerCase() !== selectedSubject.trim().toLowerCase()
+    ) {
       return false;
     }
 

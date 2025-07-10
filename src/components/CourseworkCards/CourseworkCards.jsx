@@ -4,7 +4,7 @@ import "./CourseworkCards.css";
 
 import sampleData from "../../data/courseworkFiles.json";
 
-import { filterCoursework } from "../../helpers/helpers";
+import { filterCoursework } from "../../helpers/courseworkComponents";
 
 export default function CourseworkCards({
   selectedCoursework,

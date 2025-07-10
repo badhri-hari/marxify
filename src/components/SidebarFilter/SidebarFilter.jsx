@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import classNames from "classnames";
 
 import "./SidebarFilter.css";
 import "./SidebarFilter-mobile.css";
 
+import courseworkFiles from "../../data/courseworkFiles.json";
 import subjectList from "../../data/subjectList.json";
 
 const COURSEWORK = ["IA", "EE", "Exhibition", "Essay"];
@@ -26,8 +27,8 @@ export default function Sidebar({
   const [subjects, setSubjects] = useState([]);
   const isTokSelected = TOK_GROUP.includes(selectedCoursework);
 
-  const letterGrades = ["A", "B", "C"];
-  const numberGrades = ["7", "6", "5", "4"];
+  const letterGrades = useMemo(() => ["A", "B", "C"], []);
+  const numberGrades = useMemo(() => ["7", "6", "5", "4"], []);
 
   const letterSelected = selectedGrades.some((g) => letterGrades.includes(g));
   const numberSelected = selectedGrades.some((g) => numberGrades.includes(g));
@@ -46,7 +47,7 @@ export default function Sidebar({
     } else if (selectedCoursework !== "" && selectedCoursework !== "IA") {
       setSelectedGrades((prev) => prev.filter((g) => letterGrades.includes(g)));
     }
-  }, [selectedCoursework, setSelectedGrades]);
+  }, [letterGrades, numberGrades, selectedCoursework, setSelectedGrades]);
 
   useEffect(() => {
     if (isTokSelected) {
@@ -60,12 +61,48 @@ export default function Sidebar({
     }
   }, [selectedCoursework, selectedLevels, setSelectedCoursework]);
 
-  useEffect(() => {
-    setSubjects(subjectList.categories || []);
-  }, []);
-
   const sessionMonths = ["May", "November"];
   const sessionYears = Array.from({ length: 11 }, (_, i) => 2025 - i);
+
+  function getFilteredSubjectList(selectedCoursework) {
+    const usedSubjects = new Set();
+
+    courseworkFiles.forEach((entry) => {
+      const tags = entry.tags || [];
+      const subjectTag = tags[0];
+      const cwTag = tags[1];
+
+      if (!subjectTag || !cwTag) return;
+
+      if (selectedCoursework === "" || cwTag === selectedCoursework) {
+        usedSubjects.add(subjectTag);
+      }
+    });
+
+    const filteredGroups = [];
+
+    subjectList.categories.forEach((category) => {
+      const filteredSubjects = category.subjects.filter((subject) =>
+        usedSubjects.has(subject.name)
+      );
+
+      if (filteredSubjects.length > 0) {
+        filteredGroups.push({
+          group: category.group,
+          subjects: filteredSubjects,
+        });
+      }
+    });
+
+    return {
+      categories: filteredGroups,
+    };
+  }
+
+  useEffect(() => {
+    const filtered = getFilteredSubjectList(selectedCoursework);
+    setSubjects(filtered.categories || []);
+  }, [selectedCoursework]);
 
   function toggleCheckbox(value, list, setList) {
     setList((prev) =>
@@ -144,7 +181,7 @@ export default function Sidebar({
           {subjects.map((group) => (
             <optgroup key={group.group} label={group.group}>
               {group.subjects.map((subj) => (
-                <option key={subj.code} value={subj.code}>
+                <option key={subj.code} value={subj.name}>
                   {subj.name}
                 </option>
               ))}

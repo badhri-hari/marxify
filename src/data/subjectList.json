@@ -3,72 +3,150 @@
     {
       "group": "Group 1: Studies in Language and Literature",
       "subjects": [
-        { "code": "LIT_ENG", "name": "English A: Literature" },
         {
-          "code": "LANG_LIT_ENG",
+          "code": "LANG_LIT_ARABIC",
+          "name": "Arabic A: Language and Literature"
+        },
+        { "code": "LIT_ARABIC", "name": "Arabic A: Literature" },
+        {
+          "code": "LANG_LIT_CHINESE",
+          "name": "Chinese A: Language and Literature"
+        },
+        { "code": "LIT_CHINESE", "name": "Chinese A: Literature" },
+        {
+          "code": "LANG_LIT_DUTCH",
+          "name": "Dutch A: Language and Literature"
+        },
+        { "code": "LIT_DUTCH", "name": "Dutch A: Literature" },
+        {
+          "code": "LANG_LIT_ENGLISH",
           "name": "English A: Language and Literature"
         },
+        { "code": "LIT_ENGLISH", "name": "English A: Literature" },
         {
-          "code": "LIT_OTHER",
-          "name": "Language A: Literature (Other Language)"
+          "code": "LANG_LIT_FRENCH",
+          "name": "French A: Language and Literature"
         },
-        { "code": "LANG_LIT_OTHER", "name": "Language A: Lang and Lit (Other)" }
+        { "code": "LIT_FRENCH", "name": "French A: Literature" },
+        {
+          "code": "LANG_LIT_GERMAN",
+          "name": "German A: Language and Literature"
+        },
+        { "code": "LIT_GERMAN", "name": "German A: Literature" },
+        {
+          "code": "LANG_LIT_INDONESIAN",
+          "name": "Indonesian A: Language and Literature"
+        },
+        { "code": "LIT_INDONESIAN", "name": "Indonesian A: Literature" },
+        {
+          "code": "LANG_LIT_KOREAN",
+          "name": "Korean A: Language and Literature"
+        },
+        { "code": "LIT_KOREAN", "name": "Korean A: Literature" },
+        { "code": "LIT_MALAY", "name": "Malay A: Literature" },
+        { "code": "LIT_POLISH", "name": "Polish A: Literature" },
+        {
+          "code": "LANG_LIT_PORTUGUESE",
+          "name": "Portuguese A: Language and Literature"
+        },
+        { "code": "LIT_PORTUGUESE", "name": "Portuguese A: Literature" },
+        {
+          "code": "LANG_LIT_RUSSIAN",
+          "name": "Russian A: Language and Literature"
+        },
+        { "code": "LIT_RUSSIAN", "name": "Russian A: Literature" },
+        {
+          "code": "LANG_LIT_SPANISH",
+          "name": "Spanish A: Language and Literature"
+        },
+        { "code": "LIT_SPANISH", "name": "Spanish A: Literature" },
+        {
+          "code": "LANG_LIT_OTHER",
+          "name": "Other Language A: Language and Literature"
+        },
+        { "code": "LIT_OTHER", "name": "Other Language A: Literature" }
       ]
     },
     {
       "group": "Group 2: Language Acquisition",
       "subjects": [
-        { "code": "LANG_B_FR", "name": "French B" },
-        { "code": "LANG_B_SP", "name": "Spanish B" },
-        { "code": "LANG_B_OTHER", "name": "Language B (Other)" },
-        { "code": "AB_INITIO_SP", "name": "Spanish ab initio" },
-        { "code": "AB_INITIO_FR", "name": "French ab initio" },
-        { "code": "AB_INITIO_OTHER", "name": "Language ab initio (Other)" }
+        { "code": "AB_ARABIC", "name": "Arabic ab initio" },
+        { "code": "B_ARABIC", "name": "Arabic B" },
+        { "code": "B_CHINESE", "name": "Chinese B" },
+        { "code": "B_DANISH", "name": "Danish B" },
+        { "code": "AB_ENGLISH", "name": "English ab initio" },
+        { "code": "B_ENGLISH", "name": "English B" },
+        { "code": "AB_FRENCH", "name": "French ab initio" },
+        { "code": "B_FRENCH", "name": "French B" },
+        { "code": "AB_GERMAN", "name": "German ab initio" },
+        { "code": "B_GERMAN", "name": "German B" },
+        { "code": "B_HINDI", "name": "Hindi B" },
+        { "code": "B_INDONESIAN", "name": "Indonesian B" },
+        { "code": "AB_ITALIAN", "name": "Italian ab initio" },
+        { "code": "B_ITALIAN", "name": "Italian B" },
+        { "code": "AB_JAPANESE", "name": "Japanese ab initio" },
+        { "code": "B_JAPANESE", "name": "Japanese" },
+        { "code": "LATIN", "name": "Latin" },
+        { "code": "AB_MANDARIN", "name": "Mandarin ab initio" },
+        { "code": "AB_SPANISH", "name": "Spanish ab initio" },
+        { "code": "B_SPANISH", "name": "Spanish B" },
+        { "code": "AB_OTHER", "name": "Other Language ab initio" },
+        { "code": "B_OTHER", "name": "Other Language B" }
       ]
     },
     {
       "group": "Group 3: Individuals and Societies",
       "subjects": [
+        { "code": "ART_HISTORY", "name": "Art History" },
+        { "code": "BUSINESS", "name": "Business and Management" },
         { "code": "ECON", "name": "Economics" },
-        { "code": "BUS_MAN", "name": "Business Management" },
-        { "code": "GEOGRAPHY", "name": "Geography" },
-        { "code": "HISTORY", "name": "History" },
-        { "code": "PHILOSOPHY", "name": "Philosophy" },
+        { "code": "GEO", "name": "Geography" },
+        { "code": "GP", "name": "Global Politics" },
+        { "code": "HIST", "name": "History" },
+        { "code": "ITGS", "name": "ITGS" },
+        { "code": "DIGITAL_SOCIETY", "name": "Digital Society" },
+        { "code": "PHIL", "name": "Philosophy" },
         { "code": "PSYCH", "name": "Psychology" },
-        { "code": "SOC_CULT_ANTH", "name": "Social and Cultural Anthropology" },
-        { "code": "WORLD_RELS", "name": "World Religions" },
-        { "code": "ENV_SYS_SOC", "name": "Environmental Systems and Societies" }
+        { "code": "ANTHRO", "name": "Social and cultural anthropology" },
+        { "code": "RELIGIONS", "name": "World Religions" }
       ]
     },
     {
       "group": "Group 4: Sciences",
       "subjects": [
-        { "code": "BIOLOGY", "name": "Biology" },
-        { "code": "CHEMISTRY", "name": "Chemistry" },
-        { "code": "PHYSICS", "name": "Physics" },
-        { "code": "SPORT_SCI", "name": "Sports, Exercise and Health Science" },
-        { "code": "DESIGN_TECH", "name": "Design Technology" },
-        { "code": "COMP_SCI", "name": "Computer Science" }
+        { "code": "BIO", "name": "Biology" },
+        { "code": "CHEM", "name": "Chemistry" },
+        { "code": "CS", "name": "Computer Science" },
+        { "code": "DT", "name": "Design technology" },
+        { "code": "PHYS", "name": "Physics" },
+        { "code": "SPORTSCI", "name": "Sports Science" }
       ]
     },
     {
       "group": "Group 5: Mathematics",
       "subjects": [
-        { "code": "MATH_AA", "name": "Mathematics: Analysis and Approaches" },
-        {
-          "code": "MATH_AI",
-          "name": "Mathematics: Applications and Interpretation"
-        }
+        { "code": "MATH_AA", "name": "Math AA" },
+        { "code": "MATH_AI", "name": "Math AI" },
+        { "code": "MATH_STUDIES", "name": "Mathematical Studies" },
+        { "code": "MATH", "name": "Mathematics" }
       ]
     },
     {
       "group": "Group 6: The Arts",
       "subjects": [
-        { "code": "VISUAL_ARTS", "name": "Visual Arts" },
-        { "code": "THEATRE", "name": "Theatre" },
-        { "code": "MUSIC", "name": "Music" },
+        { "code": "DANCE", "name": "Dance" },
         { "code": "FILM", "name": "Film" },
-        { "code": "DANCE", "name": "Dance" }
+        { "code": "MUSIC", "name": "Music" },
+        { "code": "THEATRE", "name": "Theatre" },
+        { "code": "VA", "name": "Visual Arts" }
+      ]
+    },
+    {
+      "group": "Miscellaneous",
+      "subjects": [
+        { "code": "ESS", "name": "ESS" },
+        { "code": "WS", "name": "World Studies" },
+        { "code": "OTHER", "name": "Other" }
       ]
     }
   ]

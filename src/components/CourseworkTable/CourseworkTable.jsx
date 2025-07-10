@@ -4,7 +4,7 @@ import sampleData from "../../data/courseworkFiles.json";
 import "./CourseworkTable.css";
 import "./CourseworkTable-mobile.css";
 
-import { parseTags, filterCoursework } from "../../helpers/helpers";
+import { parseTags, filterCoursework } from "../../helpers/courseworkComponents";
 
 export default function CourseworkTable({
   selectedCoursework,
