@@ -125,10 +125,8 @@
     {
       "group": "Group 5: Mathematics",
       "subjects": [
-        { "code": "MATH_AA", "name": "Math AA" },
-        { "code": "MATH_AI", "name": "Math AI" },
-        { "code": "MATH_STUDIES", "name": "Mathematical Studies" },
-        { "code": "MATH", "name": "Mathematics" }
+        { "code": "MATH_AA", "name": "AA" },
+        { "code": "MATH_AI", "name": "AI" }
       ]
     },
     {

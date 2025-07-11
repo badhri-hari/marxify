@@ -593,7 +593,7 @@
   },
   {
     "title": "https://github.com/ansh/Mathematics-Extended-Essay",
-    "tags": ["Mathematics", "EE", "May 2019"],
+    "tags": ["AA", "EE", "May 2019"],
     "rawMark": 33,
     "score": "A",
     "comment": "https://github.com/ansh/Mathematics-Extended-Essay",
@@ -697,7 +697,7 @@
   },
   {
     "title": "Was quite happy with it",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 30,
     "score": "A",
     "comment": "Was quite happy with it",
@@ -705,7 +705,7 @@
   },
   {
     "title": "Los Números Surreales como Anillo Unitario Conmutativo",
-    "tags": ["Mathematics", "EE", "November 2020"],
+    "tags": ["AA", "EE", "November 2020"],
     "rawMark": 30,
     "score": "A",
     "comment": "Los Números Surreales como Anillo Unitario Conmutativo",
@@ -729,7 +729,7 @@
   },
   {
     "title": "Exploring dynamic programming via recursion and the golden ratio",
-    "tags": ["Mathematics", "EE", "May 2019"],
+    "tags": ["AA", "EE", "May 2019"],
     "rawMark": 30,
     "score": "A",
     "comment": "Exploring dynamic programming via recursion and the golden ratio",
@@ -737,7 +737,7 @@
   },
   {
     "title": "THIS IS NOT THE ORIGINAL VERSION. Original version's written and submitted in French. This is a translation",
-    "tags": ["Mathematics", "EE", "May 2020"],
+    "tags": ["AA", "EE", "May 2020"],
     "rawMark": 29,
     "score": "A",
     "comment": "THIS IS NOT THE ORIGINAL VERSION. Original version's written and submitted in French. This is a translation",
@@ -753,7 +753,7 @@
   },
   {
     "title": "French version of the essay (English version of the essay in another submission)",
-    "tags": ["Mathematics", "EE", "May 2020"],
+    "tags": ["AA", "EE", "May 2020"],
     "rawMark": 29,
     "score": "A",
     "comment": "French version of the essay (English version of the essay in another submission)",
@@ -769,7 +769,7 @@
   },
   {
     "title": "RSA, Discrete Math EE",
-    "tags": ["Mathematics", "EE", "May 2021"],
+    "tags": ["AA", "EE", "May 2021"],
     "rawMark": 29,
     "score": "A",
     "comment": "RSA, Discrete Math EE",
@@ -841,7 +841,7 @@
   },
   {
     "title": "This EE is honestly bad lol",
-    "tags": ["Mathematics", "EE", "May 2021"],
+    "tags": ["AA", "EE", "May 2021"],
     "rawMark": 27,
     "score": "A",
     "comment": "This EE is honestly bad lol",
@@ -1169,7 +1169,7 @@
   },
   {
     "title": "EE on Quantum Mechanics. What NOT to do.",
-    "tags": ["Mathematics", "EE", "May 2021"],
+    "tags": ["AA", "EE", "May 2021"],
     "rawMark": 20,
     "score": "B",
     "comment": "EE on Quantum Mechanics. What NOT to do.",
@@ -1249,7 +1249,7 @@
   },
   {
     "title": "Exploring Fourier Series by Drawing Figures with Circles",
-    "tags": ["Mathematics", "IA", "HL", "May 2020"],
+    "tags": ["AA", "IA", "HL", "May 2020"],
     "rawMark": 19,
     "score": 7,
     "comment": "Exploring Fourier Series by Drawing Figures with Circles",
@@ -1305,7 +1305,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "HL", "November 2016"],
+    "tags": ["AA", "IA", "HL", "November 2016"],
     "rawMark": 19,
     "score": 7,
     "comment": "N/A",
@@ -1313,7 +1313,7 @@
   },
   {
     "title": "16->19 after EUR",
-    "tags": ["Mathematics", "IA", "HL", "May 2020"],
+    "tags": ["AA", "IA", "HL", "May 2020"],
     "rawMark": 19,
     "score": 7,
     "comment": "16->19 after EUR",
@@ -1345,7 +1345,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "HL", "May 2020"],
+    "tags": ["AA", "IA", "HL", "May 2020"],
     "rawMark": 18,
     "score": 7,
     "comment": "N/A",
@@ -1361,7 +1361,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 18,
     "score": 7,
     "comment": "N/A",
@@ -1385,7 +1385,7 @@
   },
   {
     "title": "Aplicaciones e interpretaciones NM/SL. Diagramas de Voronoi. paper 2, man, paper 2 just destroyed me",
-    "tags": ["Mathematics", "IA", "SL", "November 2021"],
+    "tags": ["AA", "IA", "SL", "November 2021"],
     "rawMark": 18,
     "score": 5,
     "comment": "Aplicaciones e interpretaciones NM/SL. Diagramas de Voronoi. paper 2, man, paper 2 just destroyed me",
@@ -1401,7 +1401,7 @@
   },
   {
     "title": "Proposing a new probabilistic approach in modelling epidemics; 18 out of 20",
-    "tags": ["Mathematics", "IA", "HL", "May 2017"],
+    "tags": ["AA", "IA", "HL", "May 2017"],
     "rawMark": 18,
     "score": 7,
     "comment": "Proposing a new probabilistic approach in modelling epidemics; 18 out of 20",
@@ -1409,7 +1409,7 @@
   },
   {
     "title": "Math IA",
-    "tags": ["Mathematics", "IA", "HL", "May 2018"],
+    "tags": ["AA", "IA", "HL", "May 2018"],
     "rawMark": 18,
     "score": 7,
     "comment": "Math IA",
@@ -1425,7 +1425,7 @@
   },
   {
     "title": "The subject was mathematics: analysis and approaches. I chose a pretty simple topic, good luck!",
-    "tags": ["Mathematics", "IA", "SL", "May 2021"],
+    "tags": ["AA", "IA", "SL", "May 2021"],
     "rawMark": 18,
     "score": 7,
     "comment": "The subject was mathematics: analysis and approaches. I chose a pretty simple topic, good luck!",
@@ -1441,7 +1441,7 @@
   },
   {
     "title": "IA on Volume of Revolution. Moderated score was also 18.",
-    "tags": ["Mathematics", "IA", "SL", "May 2019"],
+    "tags": ["AA", "IA", "SL", "May 2019"],
     "rawMark": 18,
     "score": 7,
     "comment": "IA on Volume of Revolution. Moderated score was also 18.",
@@ -1449,7 +1449,7 @@
   },
   {
     "title": "It contains extracurricular stuff, would not recommend this kind of topic",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 18,
     "score": 7,
     "comment": "It contains extracurricular stuff, would not recommend this kind of topic",
@@ -1457,7 +1457,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "SL", "November 2015"],
+    "tags": ["AA", "IA", "SL", "November 2015"],
     "rawMark": 18,
     "score": 7,
     "comment": "N/A",
@@ -1465,7 +1465,7 @@
   },
   {
     "title": "MAA, was told it would get a 5 and i should drop the course, but haha, here I am with a 7.",
-    "tags": ["Mathematics", "IA", "SL", "May 2021"],
+    "tags": ["AA", "IA", "SL", "May 2021"],
     "rawMark": 18,
     "score": 7,
     "comment": "MAA, was told it would get a 5 and i should drop the course, but haha, here I am with a 7.",
@@ -1473,7 +1473,7 @@
   },
   {
     "title": "Topic: Approximating sin(x) in algebraic terms | Don't know my raw marks for the IA, but my total raw marks were 83/100.",
-    "tags": ["Mathematics", "IA", "SL", "May 2020"],
+    "tags": ["AA", "IA", "SL", "May 2020"],
     "rawMark": "N/A",
     "score": 7,
     "comment": "Topic: Approximating sin(x) in algebraic terms | Don't know my raw marks for the IA, but my total raw marks were 83/100.",
@@ -1481,7 +1481,7 @@
   },
   {
     "title": "A permutations exploration of the 15-puzzle",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 18,
     "score": 7,
     "comment": "A permutations exploration of the 15-puzzle",
@@ -1505,7 +1505,7 @@
   },
   {
     "title": "Maximising the Spinning Time of an Inception-Styled Top. Physics and calculus heavy paper typed up in 2 days so language isn't the best.",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 18,
     "score": 7,
     "comment": "Maximising the Spinning Time of an Inception-Styled Top. Physics and calculus heavy paper typed up in 2 days so language isn't the best.",
@@ -1537,7 +1537,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematical Studies", "IA", "SL", "May 2019"],
+    "tags": ["AI", "IA", "SL", "May 2019"],
     "rawMark": 18,
     "score": 7,
     "comment": "N/A",
@@ -1545,7 +1545,7 @@
   },
   {
     "title": "So much about the irl plans that this ia established :(",
-    "tags": ["Mathematics", "IA", "HL", "May 2020"],
+    "tags": ["AA", "IA", "HL", "May 2020"],
     "rawMark": 17,
     "score": 7,
     "comment": "So much about the irl plans that this ia established :(",
@@ -1561,7 +1561,7 @@
   },
   {
     "title": "Man, I've been there where you are at. Trust me, you will get through! [UWC East Africa, '21]",
-    "tags": ["Mathematics", "IA", "SL", "May 2021"],
+    "tags": ["AA", "IA", "SL", "May 2021"],
     "rawMark": 17,
     "score": 6,
     "comment": "Man, I've been there where you are at. Trust me, you will get through! [UWC East Africa, '21]",
@@ -1577,7 +1577,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "EE", "May 2020"],
+    "tags": ["AA", "EE", "May 2020"],
     "rawMark": 17,
     "score": "C",
     "comment": "N/A",
@@ -1593,7 +1593,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "HL", "May 2020"],
+    "tags": ["AA", "IA", "HL", "May 2020"],
     "rawMark": 17,
     "score": 7,
     "comment": "N/A",
@@ -1601,7 +1601,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 17,
     "score": 7,
     "comment": "N/A",
@@ -1609,7 +1609,7 @@
   },
   {
     "title": "Emulating Computer Calculations in Order to Manipulate a Cube’s On-Screen Appearance",
-    "tags": ["Mathematics", "IA", "HL", "May 2020"],
+    "tags": ["AA", "IA", "HL", "May 2020"],
     "rawMark": 17,
     "score": 7,
     "comment": "Emulating Computer Calculations in Order to Manipulate a Cube’s On-Screen Appearance",
@@ -1617,7 +1617,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 17,
     "score": 6,
     "comment": "N/A",
@@ -1625,7 +1625,7 @@
   },
   {
     "title": "Math AA",
-    "tags": ["Mathematics", "IA", "HL", "May 2021"],
+    "tags": ["AA", "IA", "HL", "May 2021"],
     "rawMark": 16,
     "score": 6,
     "comment": "Math AA",
@@ -1641,7 +1641,7 @@
   },
   {
     "title": "N/A",
-    "tags": ["Mathematics", "IA", "HL", "May 2020"],
+    "tags": ["AA", "IA", "HL", "May 2020"],
     "rawMark": 15,
     "score": 6,
     "comment": "N/A",
