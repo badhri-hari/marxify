@@ -5,10 +5,12 @@ footer {
   font-style: italic;
   line-height: 1.5;
   background-color: #f14668;
+  color: white;
 }
 
 .footer-link:hover {
+  opacity: 0.8;
   text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }

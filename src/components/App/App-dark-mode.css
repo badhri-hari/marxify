@@ -149,4 +149,12 @@
   .coursework-table tbody tr:nth-child(odd):hover {
     background-color: #242526 !important;
   }
+
+  .table-title-td > * {
+    color: #3391ff !important;
+  }
+
+  .table-title-td > *:hover {
+    color: white !important;
+  }
 }

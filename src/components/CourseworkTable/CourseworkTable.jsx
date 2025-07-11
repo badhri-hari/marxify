@@ -4,7 +4,10 @@ import sampleData from "../../data/courseworkFiles.json";
 import "./CourseworkTable.css";
 import "./CourseworkTable-mobile.css";
 
-import { parseTags, filterCoursework } from "../../helpers/courseworkComponents";
+import {
+  parseTags,
+  filterCoursework,
+} from "../../helpers/courseworkComponents";
 
 export default function CourseworkTable({
   selectedCoursework,
@@ -62,27 +65,29 @@ export default function CourseworkTable({
 
                 return (
                   <tr key={id} className="table-row">
-                    <td className="table-title-td">
+                    <td className="table-title-td" aria-label={title}>
                       <a href={link} target="_blank" rel="noopener noreferrer">
                         {title}
                       </a>
                     </td>
-                    <td className="table-subject-td">
+                    <td className="table-subject-td" aria-label={subject}>
                       <span>{subject}</span>
                     </td>
-                    <td className="table-type-td">
+                    <td className="table-type-td" aria-label={type}>
                       <span>{type}</span>
                     </td>
-                    <td className="table-session-td">
+                    <td className="table-session-td" aria-label={session || ""}>
                       {session || <span aria-hidden="true">—</span>}
                     </td>
                     <td className="table-score-td">{score}</td>
                     {width > 900 && (
-                      <td className="table-mark-td">{rawMark}</td>
+                      <td className="table-mark-td" aria-hidden>
+                        {rawMark}
+                      </td>
                     )}
                     <td className="table-comment-td">
                       {comment ? (
-                        <span>{comment}</span>
+                        <span aria-label={comment}>{comment}</span>
                       ) : (
                         <span aria-hidden="true">—</span>
                       )}

@@ -46,11 +46,11 @@
 }
 
 .table-title-td > * {
-  color: #3391ff;
+  color: rgb(44, 115, 228);
 }
 
 .table-title-td > *:hover {
-  color: white;
+  color: #363636;
 }
 
 .table-subject-td {

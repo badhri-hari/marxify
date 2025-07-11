@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { FaRegComment } from "react-icons/fa";
 
 export default function Cards({
@@ -10,35 +10,43 @@ export default function Cards({
   score,
   link,
 }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const commentRef = useRef(null);
   const wrapperRef = useRef(null);
+  const [alignLeft, setAlignLeft] = useState(false);
 
   useEffect(() => {
-    function handleClickOutside(e) {
-      if (
-        isOpen &&
-        wrapperRef.current &&
-        !wrapperRef.current.contains(e.target)
-      ) {
-        setIsOpen(false);
+    const checkAlignment = () => {
+      if (!commentRef.current || !wrapperRef.current) return;
+      const popupRect = commentRef.current.getBoundingClientRect();
+      const cardRect = wrapperRef.current.getBoundingClientRect();
+
+      const spaceRight = window.innerWidth - cardRect.right;
+      const popupWidth = popupRect.width || 250;
+
+      if (spaceRight < popupWidth + 20) {
+        setAlignLeft(true);
+      } else {
+        setAlignLeft(false);
       }
-    }
-    document.addEventListener("click", handleClickOutside);
-    return () => document.removeEventListener("click", handleClickOutside);
-  }, [isOpen]);
+    };
+
+    checkAlignment();
+    window.addEventListener("resize", checkAlignment);
+    return () => window.removeEventListener("resize", checkAlignment);
+  }, []);
 
   return (
-    <article
-      key={id}
-      className="card"
-      style={isOpen ? { zIndex: 100000, position: "relative" } : {}}
-    >
+    <article key={id} className="card">
       <div className="overlay-info">
         <div
           className="mark-score-badge"
           aria-label={`Raw mark: ${rawMark}, Score: ${score}`}
         >
-          {score} <span>| {rawMark}</span>
+          {score}
+          &nbsp;
+          {"\u2027"}
+          &nbsp;
+          <span>{rawMark}</span>
         </div>
 
         {comment && (
@@ -47,21 +55,14 @@ export default function Cards({
             ref={wrapperRef}
             style={{ position: "relative" }}
           >
-            <FaRegComment
-              className="icon"
-              aria-label={comment}
-              tabIndex={0}
-              title={comment}
-              onClick={(e) => {
-                e.stopPropagation();
-                setIsOpen((open) => !open);
-              }}
-            />
-            {isOpen && (
-              <div className="comment-popup" aria-hidden>
-                {comment}
-              </div>
-            )}
+            <FaRegComment className="icon" aria-label={comment} />
+            <div
+              className={`comment-popup ${alignLeft ? "left" : "right"}`}
+              ref={commentRef}
+              aria-hidden
+            >
+              {comment}
+            </div>
           </div>
         )}
       </div>
@@ -70,23 +71,15 @@ export default function Cards({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label={`Open ${title} as a PDF file in a new tab`}
         className="card-link"
       >
-        <h3 id={`title-${id}`} className="card-title" title={title}>
+        <h3 className="card-title" title={title} aria-label={title}>
           {title}
         </h3>
-
-        <div className="card-tags">
+        <div className="card-tags" aria-hidden>
           {tags.map((tag, idx) => {
-            const isExamSession = /^(May|Nov)\s\d{4}$/.test(tag);
             return (
-              <span
-                key={idx}
-                className="tag"
-                aria-label={isExamSession ? `${tag} exam session` : undefined}
-                aria-hidden={!isExamSession}
-              >
+              <span key={idx} className="tag">
                 {tag}
               </span>
             );

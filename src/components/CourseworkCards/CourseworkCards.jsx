@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { filterCoursework } from "../../helpers/courseworkComponents";
 
 import Card from "./Cards";
@@ -7,10 +5,10 @@ import Card from "./Cards";
 import sampleData from "../../data/courseworkFiles.json";
 
 import "./CourseworkCards.css";
+import "./CourseworkCards-mobile.css";
 
 export default function CourseworkCards(props) {
   const filteredData = filterCoursework(sampleData, props);
-  const [visibleCommentId, setVisibleCommentId] = useState(null);
 
   if (filteredData.length === 0) {
     return (
@@ -23,15 +21,7 @@ export default function CourseworkCards(props) {
   return (
     <main>
       {filteredData.map((item) => (
-        <Card
-          key={item.id}
-          {...item}
-          isOpen={visibleCommentId === item.id}
-          onToggle={() =>
-            setVisibleCommentId((cur) => (cur === item.id ? null : item.id))
-          }
-          onClose={() => setVisibleCommentId(null)}
-        />
+        <Card key={item.id} {...item} />
       ))}
     </main>
   );
