@@ -110,6 +110,12 @@
     color: #6c6c6c !important;
   }
 
+  .comment-popup {
+    background: #242526 !important;
+    color: #f1f1f2 !important;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1) !important;
+  }
+
   .card-title {
     color: #e4e6eb !important;
   }

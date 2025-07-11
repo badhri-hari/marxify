@@ -50,8 +50,17 @@ export default function Sidebar({
   }, [letterGrades, numberGrades, selectedCoursework, setSelectedGrades]);
 
   useEffect(() => {
-    setSelectedSubject("");
-  }, [selectedCoursework, setSelectedSubject]);
+    if (!selectedCoursework || !selectedSubject) return;
+
+    const valid = courseworkFiles.some(
+      ({ tags = [] }) =>
+        tags[0] === selectedSubject && tags[1] === selectedCoursework
+    );
+
+    if (!valid) {
+      setSelectedSubject("");
+    }
+  }, [selectedCoursework, selectedSubject, setSelectedSubject]);
 
   useEffect(() => {
     if (selectedCoursework === "" && selectedLevels.length > 0) {

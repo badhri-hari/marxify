@@ -36,7 +36,6 @@ main {
   width: calc(100% - 20px);
   justify-content: space-between;
   align-items: start;
-  z-index: 2;
   color: white;
 }
 
@@ -66,10 +65,26 @@ main {
 
 .icon {
   color: #666;
-  cursor: alias;
+  cursor: help;
   font-size: 1.125rem;
   margin-top: 14.2%;
   margin-right: 4.9px;
+}
+
+.comment-popup {
+  position: absolute;
+  width: 250px;
+  bottom: 18px;
+  left: 15px;
+  z-index: 100000000;
+  border: 2.5px solid #f14668;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.8125rem;
+  color: #333;
+  padding: 8px 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  white-space: pre-wrap;
 }
 
 .card-title {
