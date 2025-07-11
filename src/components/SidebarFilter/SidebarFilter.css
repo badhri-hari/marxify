@@ -1,19 +1,18 @@
 aside {
   position: sticky;
   top: 0;
-  height: calc(100vh - 33px);
+  height: calc(100vh - 20px);
   overflow-y: scroll;
   width: 240px;
   flex-shrink: 0;
   background-color: #f5f5f5;
-  padding: 16px;
-  padding-bottom: 120px;
+  padding: 14px 16px 6px 16px;
   border-right: 0.5px solid #666;
   align-self: flex-start;
 }
 
 section {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 fieldset {
@@ -24,8 +23,8 @@ fieldset {
 
 .sidebar-h2 {
   color: #333;
-  font-size: 20px;
-  margin-top: 5px;
+  font-size: 18px;
+  margin-top: 0px;
   margin-bottom: 0;
   cursor: default;
 }
@@ -66,7 +65,7 @@ fieldset {
 .tok-separator {
   width: 100%;
   text-align: center;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   color: #333;
   position: relative;
   margin: -3px 0;
@@ -93,7 +92,8 @@ fieldset {
 
 .subject-select {
   width: 100%;
-  padding: 8px;
+  padding: 6px;
+  padding-left: 8px;
   border: 1px solid #aaa;
   background: #eee;
   color: #666;
@@ -108,7 +108,7 @@ fieldset {
 .checkbox-group {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 3px;
 }
 
 .checkbox-label {
@@ -122,6 +122,7 @@ fieldset {
 }
 
 .series-separator {
+  display: none;
   width: 100%;
   text-align: center;
   font-size: 0.78rem;
@@ -180,8 +181,7 @@ fieldset {
 .clear-filters-container {
   display: flex;
   justify-content: center;
-  margin-top: -4px;
-  margin-bottom: 10px;
+  margin-top: 8px;
 }
 
 .clear-filters-button {

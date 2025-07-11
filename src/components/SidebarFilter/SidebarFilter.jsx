@@ -319,7 +319,7 @@ export default function Sidebar({
           </div>
         </fieldset>
 
-        <fieldset style={{ marginTop: "1rem" }}>
+        <fieldset style={{ marginTop: "0rem" }}>
           <legend className="year-separator">Year</legend>
           <div className="checkbox-group">
             {sessionYears.map((year) => (
