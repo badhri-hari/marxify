@@ -1,7 +1,13 @@
 @media (max-width: 900px) {
   aside {
+    position: relative;
+    align-self: auto;
+    height: auto;
     width: auto;
+    overflow-y: hidden;
     padding: 16px;
+    padding-bottom: 0;
+    border-right: none;
     border-bottom: 0.5px solid black;
   }
 
