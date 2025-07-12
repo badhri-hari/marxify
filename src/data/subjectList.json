@@ -125,8 +125,8 @@
     {
       "group": "Group 5: Mathematics",
       "subjects": [
-        { "code": "MATH_AA", "name": "AA" },
-        { "code": "MATH_AI", "name": "AI" }
+        { "code": "MATH_AA", "name": "Math AA" },
+        { "code": "MATH_AI", "name": "Math AI" }
       ]
     },
     {
