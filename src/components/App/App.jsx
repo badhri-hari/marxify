@@ -13,7 +13,7 @@ import "./App-dark-mode.css";
 
 export default function App() {
   const [selectedCoursework, setSelectedCoursework] = useState("");
-  const [selectedSubject, setSelectedSubject] = useState("");
+  const [selectedSubject, setSelectedSubject] = useState([]);
   const [selectedLevels, setSelectedLevels] = useState([]);
   const [selectedGrades, setSelectedGrades] = useState([]);
   const [selectedSessionMonths, setSelectedSessionMonths] = useState([]);

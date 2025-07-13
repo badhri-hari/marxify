@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
+import Select from "react-select";
 import classNames from "classnames";
 
 import "./SidebarFilter.css";
@@ -6,6 +7,9 @@ import "./SidebarFilter-mobile.css";
 
 import courseworkFiles from "../../data/courseworkFiles.json";
 import subjectList from "../../data/subjectList.json";
+
+import { useDarkMode } from "./../../hooks/useDarkMode";
+import { getCustomSelectStyles } from "../../helpers/sidebarDropdownStyles";
 
 const COURSEWORK = ["IA", "EE", "Exhibition", "Essay"];
 const TOK_GROUP = ["Exhibition", "Essay"];
@@ -50,15 +54,18 @@ export default function Sidebar({
   }, [letterGrades, numberGrades, selectedCoursework, setSelectedGrades]);
 
   useEffect(() => {
-    if (!selectedCoursework || !selectedSubject) return;
+    if (!selectedCoursework || selectedSubject.length === 0) return;
 
-    const valid = courseworkFiles.some(
-      ({ tags = [] }) =>
-        tags[0] === selectedSubject && tags[1] === selectedCoursework
+    const validSubjects = new Set(
+      courseworkFiles
+        .filter(({ tags = [] }) => tags[1] === selectedCoursework)
+        .map(({ tags = [] }) => tags[0])
     );
 
-    if (!valid) {
-      setSelectedSubject("");
+    const filtered = selectedSubject.filter((s) => validSubjects.has(s.value));
+
+    if (filtered.length !== selectedSubject.length) {
+      setSelectedSubject(filtered);
     }
   }, [selectedCoursework, selectedSubject, setSelectedSubject]);
 
@@ -119,7 +126,7 @@ export default function Sidebar({
 
   const isAFilterSelected =
     selectedCoursework !== "" ||
-    selectedSubject !== "" ||
+    selectedSubject.length > 0 ||
     selectedLevels.length > 0 ||
     selectedGrades.length > 0 ||
     selectedSessionMonths.length > 0 ||
@@ -176,25 +183,27 @@ export default function Sidebar({
           Subject
         </h2>
         <hr className="sidebar-hr" />
-        <select
-          id="subject-select"
-          className="subject-select"
-          disabled={isTokSelected}
+
+        <Select
+          isMulti
+          isDisabled={isTokSelected}
           value={selectedSubject}
-          onChange={(e) => setSelectedSubject(e.target.value)}
-          aria-label="Select subject"
-        >
-          <option value="">-- Select a Subject --</option>
-          {subjects.map((group) => (
-            <optgroup key={group.group} label={group.group}>
-              {group.subjects.map((subj) => (
-                <option key={subj.code} value={subj.name}>
-                  {subj.name}
-                </option>
-              ))}
-            </optgroup>
-          ))}
-        </select>
+          onChange={(selected) => setSelectedSubject(selected || [])}
+          options={subjects.flatMap((group) => [
+            {
+              label: group.group,
+              options: group.subjects.map((subj) => ({
+                value: subj.name,
+                label: subj.name,
+              })),
+            },
+          ])}
+          className="subject-select-container"
+          classNamePrefix="react-select"
+          styles={getCustomSelectStyles(useDarkMode())}
+          placeholder="Select subjects..."
+          aria-label="Select subjects"
+        />
       </section>
 
       <section aria-labelledby="level-heading">
@@ -319,7 +328,7 @@ export default function Sidebar({
           </div>
         </fieldset>
 
-        <fieldset style={{ marginTop: "0rem" }}>
+        <fieldset style={{ marginTop: "0.8rem" }}>
           <legend className="year-separator">Year</legend>
           <div className="checkbox-group">
             {sessionYears.map((year) => (
@@ -359,7 +368,7 @@ export default function Sidebar({
           disabled={!isAFilterSelected}
           onClick={() => {
             setSelectedCoursework("");
-            setSelectedSubject("");
+            setSelectedSubject([]);
             setSelectedLevels([]);
             setSelectedGrades([]);
             setSelectedSessionMonths([]);

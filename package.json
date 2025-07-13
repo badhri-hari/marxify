@@ -1,7 +1,7 @@
 {
   "name": "marxify",
   "private": true,
-  "version": "1.1.9",
+  "version": "1.1.10",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,8 @@
     "classnames": "^2.5.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-select": "^5.10.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",

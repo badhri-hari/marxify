@@ -154,6 +154,7 @@ fieldset {
 }
 
 .year-separator {
+  display: none;
   width: 100%;
   text-align: center;
   font-size: 0.78rem;

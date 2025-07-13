@@ -51,8 +51,10 @@ export function filterCoursework(
     }
 
     if (
-      selectedSubject &&
-      subject.trim().toLowerCase() !== selectedSubject.trim().toLowerCase()
+      selectedSubject.length > 0 &&
+      !selectedSubject.some(
+        (s) => s.value.trim().toLowerCase() === subject.trim().toLowerCase()
+      )
     ) {
       return false;
     }

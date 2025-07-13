@@ -92,7 +92,6 @@
 
   .card {
     background: #242526 !important;
-    border: 0.05px solid black !important;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.05) !important;
   }
 
