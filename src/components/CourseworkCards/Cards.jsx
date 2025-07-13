@@ -13,26 +13,35 @@ export default function Cards({
   const commentRef = useRef(null);
   const wrapperRef = useRef(null);
   const [alignLeft, setAlignLeft] = useState(false);
+  const [showBelow, setShowBelow] = useState(false);
 
   useEffect(() => {
     const checkAlignment = () => {
       if (!commentRef.current || !wrapperRef.current) return;
+
       const popupRect = commentRef.current.getBoundingClientRect();
       const cardRect = wrapperRef.current.getBoundingClientRect();
 
       const spaceRight = window.innerWidth - cardRect.right;
       const popupWidth = popupRect.width || 250;
+      setAlignLeft(spaceRight < popupWidth + 20);
 
-      if (spaceRight < popupWidth + 20) {
-        setAlignLeft(true);
-      } else {
-        setAlignLeft(false);
-      }
+      const popupHeight = popupRect.height || 100;
+      const spaceAbove = cardRect.top;
+      const spaceBelow = window.innerHeight - cardRect.bottom;
+      setShowBelow(
+        spaceAbove < popupHeight + 20 && spaceBelow >= popupHeight + 20
+      );
     };
 
     checkAlignment();
     window.addEventListener("resize", checkAlignment);
-    return () => window.removeEventListener("resize", checkAlignment);
+    window.addEventListener("scroll", checkAlignment, { passive: true });
+
+    return () => {
+      window.removeEventListener("resize", checkAlignment);
+      window.removeEventListener("scroll", checkAlignment);
+    };
   }, []);
 
   return (
@@ -57,7 +66,9 @@ export default function Cards({
           >
             <FaRegComment className="icon" aria-label={comment} />
             <div
-              className={`comment-popup ${alignLeft ? "left" : "right"}`}
+              className={`comment-popup
+       ${alignLeft ? "left" : "right"}
+       ${showBelow ? "below" : "above"}`}
               ref={commentRef}
               aria-hidden
             >

@@ -9,6 +9,27 @@ import {
   filterCoursework,
 } from "../../helpers/courseworkComponents";
 
+function sortCoursework(data, sortOption) {
+  if (sortOption === "latest" || sortOption === "oldest") {
+    return [...data].sort((a, b) => {
+      const { month: ma, year: ya } = parseTags(a.tags);
+      const { month: mb, year: yb } = parseTags(b.tags);
+
+      const monthMap = { May: 5, November: 11 };
+      const dateA = new Date(Number(ya), monthMap[ma] || 0);
+      const dateB = new Date(Number(yb), monthMap[mb] || 0);
+
+      return sortOption === "latest" ? dateB - dateA : dateA - dateB;
+    });
+  }
+
+  if (sortOption === "marks") {
+    return [...data].sort((a, b) => b.rawMark - a.rawMark);
+  }
+
+  return data;
+}
+
 export default function CourseworkTable({
   selectedCoursework,
   selectedSubject,
@@ -16,6 +37,7 @@ export default function CourseworkTable({
   selectedGrades,
   selectedSessionMonths,
   selectedSessionYears,
+  sortOption,
 }) {
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -34,13 +56,15 @@ export default function CourseworkTable({
     selectedSessionYears,
   });
 
+  const sortedData = sortCoursework(filteredData, sortOption);
+
   return (
     <div
       className="coursework-table-wrapper"
       role="region"
       aria-label="Coursework results"
     >
-      {filteredData.length === 0 ? (
+      {sortedData.length === 0 ? (
         <p role="status" className="no-results">
           No coursework matches the selected filters.
         </p>
@@ -58,18 +82,23 @@ export default function CourseworkTable({
             </tr>
           </thead>
           <tbody>
-            {filteredData.map(
+            {sortedData.map(
               ({ id, title, tags, comment, rawMark, score, link }) => {
                 const { subject, type, month, year } = parseTags(tags);
                 const session = month && year ? `${month} ${year}` : "";
 
                 return (
                   <tr key={id} className="table-row">
-                    <td className="table-title-td" aria-label={title}>
-                      <a href={link} target="_blank" rel="noopener noreferrer">
-                        {title}
-                      </a>
-                    </td>
+                      <td className="table-title-td" aria-label={title}>
+                        <a
+                          href={link}
+                          className="table-title-link"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {title}
+                        </a>
+                      </td>
                     <td className="table-subject-td" aria-label={subject}>
                       <span>{subject}</span>
                     </td>

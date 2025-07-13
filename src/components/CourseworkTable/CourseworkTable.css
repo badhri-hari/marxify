@@ -1,13 +1,12 @@
 .coursework-table-wrapper {
-  width: calc(100% - 2rem);
+  width: calc(100% - 1.4rem);
   overflow-x: auto;
-  padding: 1rem;
+  padding: 0 0.7rem 0.7rem 0.7rem;
 }
 
 .coursework-table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 1rem;
 }
 
 .coursework-table th {
@@ -45,12 +44,13 @@
   text-align: left !important;
 }
 
-.table-title-td > * {
+.table-title-link {
   color: rgb(44, 115, 228);
 }
 
-.table-title-td > *:hover {
+.table-title-td:hover .table-title-link {
   color: #363636;
+  text-decoration: underline;
 }
 
 .table-subject-td {

@@ -9,6 +9,11 @@
     background-color: #181a1b !important;
   }
 
+  .sort-dropdown {
+    background: #242526 !important;
+    color: #e4e6eb !important;
+  }
+
   .toggle-container {
     background-color: #242526 !important;
   }
@@ -150,11 +155,12 @@
     background-color: #242526 !important;
   }
 
-  .table-title-td > * {
+  .table-title-link {
     color: #3391ff !important;
   }
 
-  .table-title-td > *:hover {
+  .table-title-td:hover .table-title-link {
     color: white !important;
+    text-decoration: none !important;
   }
 }

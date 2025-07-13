@@ -18,6 +18,9 @@ export default function App() {
   const [selectedGrades, setSelectedGrades] = useState([]);
   const [selectedSessionMonths, setSelectedSessionMonths] = useState([]);
   const [selectedSessionYears, setSelectedSessionYears] = useState([]);
+
+  const [sortOption, setSortOption] = useState("default");
+
   const [viewMode, setViewMode] = useState(() => {
     const stored = localStorage.getItem("viewMode");
     return stored === "card" || stored === "row" ? stored : "card";
@@ -49,6 +52,19 @@ export default function App() {
 
         <div className="coursework-elements-container">
           <div className="button-container">
+            <select
+              className="sort-dropdown"
+              value={sortOption}
+              onChange={(e) => setSortOption(e.target.value)}
+              title="Sort coursework"
+              aria-label="Sort coursework"
+            >
+              <option value="default">Default</option>
+              <option value="latest">Latest</option>
+              <option value="oldest">Oldest</option>
+              <option value="marks">Marks</option>
+            </select>
+
             <div className="toggle-container">
               <button
                 className={`icon-toggle ${
@@ -57,16 +73,24 @@ export default function App() {
                 onClick={() => setViewMode("card")}
                 aria-label="Card view"
               >
-                <FaTh size={18} className="icon-toggle-icon" />
+                <FaTh
+                  size={18}
+                  className="icon-toggle-icon"
+                  title="Show coursework in card view"
+                />
               </button>
               <button
                 className={`icon-toggle ${
                   viewMode === "row" ? "selected" : ""
                 }`}
                 onClick={() => setViewMode("row")}
-                aria-label="Row view"
+                aria-label="Table view"
               >
-                <PiListLight size={18} className="icon-toggle-icon" />
+                <PiListLight
+                  size={18}
+                  className="icon-toggle-icon"
+                  title="Show coursework in table view"
+                />
               </button>
             </div>
           </div>
@@ -79,6 +103,7 @@ export default function App() {
               selectedGrades={selectedGrades}
               selectedSessionMonths={selectedSessionMonths}
               selectedSessionYears={selectedSessionYears}
+              sortOption={sortOption}
             />
           ) : (
             <CourseworkTable
@@ -88,6 +113,7 @@ export default function App() {
               selectedGrades={selectedGrades}
               selectedSessionMonths={selectedSessionMonths}
               selectedSessionYears={selectedSessionYears}
+              sortOption={sortOption}
             />
           )}
         </div>

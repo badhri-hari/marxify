@@ -51,10 +51,12 @@ fieldset {
   cursor: pointer;
   text-align: center;
   font-weight: 600;
+  transition: border-color 0.2s ease;
 }
 
 .cw-button:hover {
   background-color: rgba(241, 70, 104, 0.06);
+  border-color: #b02a4c;
 }
 
 .cw-button.selected {
@@ -94,7 +96,7 @@ fieldset {
   width: 100%;
   padding: 6px;
   padding-left: 8px;
-  border: 1px solid #aaa;
+  border: 1px solid #333;
   background: #eee;
   color: #666;
   cursor: pointer;
@@ -103,6 +105,7 @@ fieldset {
 .subject-select:disabled {
   opacity: 0.8;
   cursor: not-allowed;
+  border: 1px solid #666;
 }
 
 .checkbox-group {
