@@ -119,6 +119,7 @@
         { "code": "CS", "name": "Computer Science" },
         { "code": "DT", "name": "Design technology" },
         { "code": "PHYS", "name": "Physics" },
+        { "code": "ESS", "name": "ESS" },
         { "code": "SPORTSCI", "name": "Sports Science" }
       ]
     },
@@ -142,7 +143,6 @@
     {
       "group": "Miscellaneous",
       "subjects": [
-        { "code": "ESS", "name": "ESS" },
         { "code": "WS", "name": "World Studies" },
         { "code": "OTHER", "name": "Other" }
       ]
