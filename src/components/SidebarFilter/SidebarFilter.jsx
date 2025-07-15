@@ -8,8 +8,8 @@ import "./SidebarFilter-mobile.css";
 import courseworkFiles from "../../data/courseworkFiles.json";
 import subjectList from "../../data/subjectList.json";
 
-import { useDarkMode } from "./../../hooks/useDarkMode";
-import { getCustomSelectStyles } from "../../helpers/sidebarDropdownStyles";
+import useDarkMode from "./../../hooks/useDarkMode";
+import getCustomSelectStyles from "../../helpers/sidebarDropdown";
 
 const COURSEWORK = ["IA", "EE", "Exhibition", "Essay"];
 const TOK_GROUP = ["Exhibition", "Essay"];
@@ -30,6 +30,8 @@ export default function Sidebar({
 }) {
   const [subjects, setSubjects] = useState([]);
   const isTokSelected = TOK_GROUP.includes(selectedCoursework);
+
+  const isDarkMode = useDarkMode();
 
   const letterGrades = useMemo(() => ["A", "B", "C"], []);
   const numberGrades = useMemo(() => ["7", "6", "5", "4"], []);
@@ -186,21 +188,61 @@ export default function Sidebar({
 
         <Select
           isMulti
+          closeMenuOnSelect={false}
           isDisabled={isTokSelected}
           value={selectedSubject}
           onChange={(selected) => setSelectedSubject(selected || [])}
-          options={subjects.flatMap((group) => [
-            {
-              label: group.group,
-              options: group.subjects.map((subj) => ({
-                value: subj.name,
-                label: subj.name,
-              })),
-            },
-          ])}
+          options={subjects.map((group) => ({
+            label: group.group,
+            options: group.subjects.map((subj) => ({
+              value: subj.name,
+              label: subj.name,
+            })),
+          }))}
+          formatGroupLabel={(group) => {
+            const groupValues = group.options.map((opt) => opt.value);
+            const selectedValues = selectedSubject.map((s) => s.value);
+            const allSelected = groupValues.every((v) =>
+              selectedValues.includes(v)
+            );
+
+            return (
+              <div
+                onClick={(e) => {
+                  e.stopPropagation();
+                  let updated;
+
+                  if (allSelected) {
+                    updated = selectedSubject.filter(
+                      (s) => !groupValues.includes(s.value)
+                    );
+                  } else {
+                    const newOptions = group.options.filter(
+                      (opt) => !selectedValues.includes(opt.value)
+                    );
+                    updated = [...selectedSubject, ...newOptions];
+                  }
+
+                  setSelectedSubject(updated);
+                }}
+                style={{
+                  cursor: "pointer",
+                  padding: "4px 8px",
+                  color: isDarkMode ? "white" : "black",
+                  fontSize: "12px",
+                }}
+                title={allSelected ? "Deselect all" : "Select all"}
+              >
+                {group.label}
+              </div>
+            );
+          }}
           className="subject-select-container"
           classNamePrefix="react-select"
-          styles={getCustomSelectStyles(useDarkMode())}
+          styles={getCustomSelectStyles(isDarkMode)}
+          menuPortalTarget={document.body}
+          menuPosition="absolute"
+          menuPlacement="auto"
           placeholder="Select subjects..."
           aria-label="Select subjects"
         />

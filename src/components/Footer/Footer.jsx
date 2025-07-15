@@ -2,7 +2,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer aria-hidden>
       Originally compiled by IB Documents (1) Team · Recovered thanks to{" "}
       <a
         href="https://archive.org/"

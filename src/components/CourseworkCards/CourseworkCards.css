@@ -24,7 +24,7 @@ main {
   background: #f8f8f8;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: scale(1.01);
-  z-index: 10000;
+  z-index: 200;
   position: relative;
 }
 
@@ -43,7 +43,6 @@ main {
 .mark-score-badge {
   display: flex;
   flex-direction: row;
-  z-index: 2;
   background-color: #f8f8f8;
   padding: 4px 8px;
   border-radius: 6px;

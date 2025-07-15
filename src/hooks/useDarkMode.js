@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useDarkMode() {
+export default function useDarkMode() {
   const [isDarkMode, setIsDarkMode] = useState(
     () => window.matchMedia("(prefers-color-scheme: dark)").matches
   );

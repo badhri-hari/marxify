@@ -76,7 +76,7 @@ export default function App() {
                 <FaTh
                   size={18}
                   className="icon-toggle-icon"
-                  title="Show coursework in card view"
+                  title="Card view"
                 />
               </button>
               <button
@@ -89,7 +89,7 @@ export default function App() {
                 <PiListLight
                   size={18}
                   className="icon-toggle-icon"
-                  title="Show coursework in table view"
+                  title="Table view"
                 />
               </button>
             </div>

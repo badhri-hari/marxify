@@ -51,7 +51,7 @@ fieldset {
   cursor: pointer;
   text-align: center;
   font-weight: 600;
-  transition: border-color 0.2s ease;
+  transition: border-color 0.1s ease;
 }
 
 .cw-button:hover {
