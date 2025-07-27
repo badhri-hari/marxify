@@ -255,15 +255,18 @@ export default function Sidebar({
         <hr className="sidebar-hr" />
         <fieldset>
           <div
-            className="checkbox-group"
+            className="checkbox-group horizontal-label"
             style={
               selectedCoursework && selectedCoursework !== "IA"
                 ? { opacity: 0.8 }
                 : {}
             }
           >
-            {["Higher Level", "Standard Level"].map((level) => (
-              <label key={level} className="checkbox-label">
+            {[
+              { label: "HL", value: "Higher Level" },
+              { label: "SL", value: "Standard Level" },
+            ].map(({ label, value }) => (
+              <label key={value} className="checkbox-label">
                 <input
                   type="checkbox"
                   disabled={selectedCoursework && selectedCoursework !== "IA"}
@@ -272,14 +275,14 @@ export default function Sidebar({
                       ? { cursor: "not-allowed" }
                       : {}
                   }
-                  checked={selectedLevels.includes(level)}
+                  checked={selectedLevels.includes(value)}
                   onChange={() =>
-                    toggleCheckbox(level, selectedLevels, setSelectedLevels)
+                    toggleCheckbox(value, selectedLevels, setSelectedLevels)
                   }
-                  aria-checked={selectedLevels.includes(level)}
-                  aria-label={level}
+                  aria-checked={selectedLevels.includes(value)}
+                  aria-label={value}
                 />
-                {level}
+                {label}
               </label>
             ))}
           </div>
@@ -348,7 +351,7 @@ export default function Sidebar({
 
         <fieldset>
           <legend className="series-separator">Series</legend>
-          <div className="checkbox-group">
+          <div className="checkbox-group horizontal-label">
             {sessionMonths.map((month) => (
               <label key={month} className="checkbox-label">
                 <input

@@ -49,13 +49,21 @@ export default function Cards({
       <div className="overlay-info">
         <div
           className="mark-score-badge"
-          aria-label={`Raw mark: ${rawMark}, Score: ${score}`}
+          aria-label={
+            rawMark != null
+              ? `Raw mark: ${rawMark}, Score: ${score}`
+              : `Score: ${score}`
+          }
         >
           {score}
-          &nbsp;
-          {"\u2027"}
-          &nbsp;
-          <span>{rawMark}</span>
+          {rawMark != null && (
+            <>
+              &nbsp;
+              {"\u2027"}
+              &nbsp;
+              <span>{rawMark}</span>
+            </>
+          )}
         </div>
 
         {comment && (

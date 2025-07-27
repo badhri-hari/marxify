@@ -12,7 +12,7 @@ aside {
 }
 
 section {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 fieldset {
@@ -122,6 +122,12 @@ fieldset {
 .checkbox-label input {
   margin-right: 8px;
   cursor: pointer;
+}
+
+.horizontal-label {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .series-separator {

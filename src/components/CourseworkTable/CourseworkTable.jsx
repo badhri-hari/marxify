@@ -89,16 +89,16 @@ export default function CourseworkTable({
 
                 return (
                   <tr key={id} className="table-row">
-                      <td className="table-title-td" aria-label={title}>
-                        <a
-                          href={link}
-                          className="table-title-link"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {title}
-                        </a>
-                      </td>
+                    <td className="table-title-td" aria-label={title}>
+                      <a
+                        href={link}
+                        className="table-title-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {title}
+                      </a>
+                    </td>
                     <td className="table-subject-td" aria-label={subject}>
                       <span>{subject}</span>
                     </td>
@@ -111,7 +111,11 @@ export default function CourseworkTable({
                     <td className="table-score-td">{score}</td>
                     {width > 900 && (
                       <td className="table-mark-td" aria-hidden>
-                        {rawMark}
+                        {rawMark != null ? (
+                          rawMark
+                        ) : (
+                          <span aria-hidden="true">—</span>
+                        )}
                       </td>
                     )}
                     <td className="table-comment-td">
