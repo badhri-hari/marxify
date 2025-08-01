@@ -11,36 +11,95 @@ export default function Cards({
   link,
 }) {
   const commentRef = useRef(null);
-  const wrapperRef = useRef(null);
+  const commentIconRef = useRef(null);
+  const ibPopupRef = useRef(null);
+  const ibIconRef = useRef(null);
+  const clastifyPopupRef = useRef(null);
+  const clastifyIconRef = useRef(null);
+
   const [alignLeft, setAlignLeft] = useState(false);
   const [showBelow, setShowBelow] = useState(false);
+  const [ibAlignLeft, setIbAlignLeft] = useState(false);
+  const [ibShowBelow, setIbShowBelow] = useState(false);
+  const [clastifyAlignLeft, setClastifyAlignLeft] = useState(false);
+  const [clastifyShowBelow, setClastifyShowBelow] = useState(false);
+  const [ibHover, setIbHover] = useState(false);
+  const [clastifyHover, setClastifyHover] = useState(false);
+  const [commentHover, setCommentHover] = useState(false);
+
+  const hasIBTag = tags.some((tag) => tag.trim() === "IB Exemplar");
+  const hasClastifyTag = tags.some((tag) => tag.trim() === "Clastify");
+
+  const updateCommentPosition = () => {
+    if (!commentRef.current || !commentIconRef.current) return;
+
+    const popupRect = commentRef.current.getBoundingClientRect();
+    const iconRect = commentIconRef.current.getBoundingClientRect();
+
+    const spaceRight = window.innerWidth - iconRect.right;
+    const popupWidth = popupRect.width || 250;
+    setAlignLeft(spaceRight < popupWidth + 20);
+
+    const popupHeight = popupRect.height || 100;
+    const spaceAbove = iconRect.top;
+    const spaceBelow = window.innerHeight - iconRect.bottom;
+    setShowBelow(
+      spaceAbove < popupHeight + 20 && spaceBelow >= popupHeight + 20
+    );
+  };
+
+  const updateIBPosition = () => {
+    if (!ibPopupRef.current || !ibIconRef.current) return;
+
+    const popupRect = ibPopupRef.current.getBoundingClientRect();
+    const iconRect = ibIconRef.current.getBoundingClientRect();
+
+    const spaceRight = window.innerWidth - iconRect.right;
+    const popupWidth = popupRect.width || 250;
+    setIbAlignLeft(spaceRight < popupWidth + 20);
+
+    const popupHeight = popupRect.height || 100;
+    const spaceAbove = iconRect.top;
+    const spaceBelow = window.innerHeight - iconRect.bottom;
+    setIbShowBelow(
+      spaceAbove < popupHeight + 20 && spaceBelow >= popupHeight + 20
+    );
+  };
+
+  const updateClastifyPosition = () => {
+    if (!clastifyPopupRef.current || !clastifyIconRef.current) return;
+
+    const popupRect = clastifyPopupRef.current.getBoundingClientRect();
+    const iconRect = clastifyIconRef.current.getBoundingClientRect();
+
+    const spaceRight = window.innerWidth - iconRect.right;
+    const popupWidth = popupRect.width || 250;
+    setClastifyAlignLeft(spaceRight < popupWidth + 20);
+
+    const popupHeight = popupRect.height || 100;
+    const spaceAbove = iconRect.top;
+    const spaceBelow = window.innerHeight - iconRect.bottom;
+    setClastifyShowBelow(
+      spaceAbove < popupHeight + 20 && spaceBelow >= popupHeight + 20
+    );
+  };
 
   useEffect(() => {
-    const checkAlignment = () => {
-      if (!commentRef.current || !wrapperRef.current) return;
-
-      const popupRect = commentRef.current.getBoundingClientRect();
-      const cardRect = wrapperRef.current.getBoundingClientRect();
-
-      const spaceRight = window.innerWidth - cardRect.right;
-      const popupWidth = popupRect.width || 250;
-      setAlignLeft(spaceRight < popupWidth + 20);
-
-      const popupHeight = popupRect.height || 100;
-      const spaceAbove = cardRect.top;
-      const spaceBelow = window.innerHeight - cardRect.bottom;
-      setShowBelow(
-        spaceAbove < popupHeight + 20 && spaceBelow >= popupHeight + 20
-      );
+    const updatePositions = () => {
+      requestAnimationFrame(() => {
+        updateCommentPosition();
+        updateIBPosition();
+        updateClastifyPosition();
+      });
     };
 
-    checkAlignment();
-    window.addEventListener("resize", checkAlignment);
-    window.addEventListener("scroll", checkAlignment, { passive: true });
+    updatePositions();
+    window.addEventListener("resize", updatePositions);
+    window.addEventListener("scroll", updatePositions, { passive: true });
 
     return () => {
-      window.removeEventListener("resize", checkAlignment);
-      window.removeEventListener("scroll", checkAlignment);
+      window.removeEventListener("resize", updatePositions);
+      window.removeEventListener("scroll", updatePositions);
     };
   }, []);
 
@@ -66,24 +125,96 @@ export default function Cards({
           )}
         </div>
 
-        {comment && (
-          <div
-            className="comment-wrapper"
-            ref={wrapperRef}
-            style={{ position: "relative" }}
-          >
-            <FaRegComment className="icon" aria-label={comment} />
+        <div className="comment-wrapper" style={{ position: "relative" }}>
+          {hasIBTag && (
             <div
-              className={`comment-popup
-       ${alignLeft ? "left" : "right"}
-       ${showBelow ? "below" : "above"}`}
-              ref={commentRef}
-              aria-hidden
+              onMouseEnter={() => {
+                setIbHover(true);
+                updateIBPosition();
+              }}
+              onMouseLeave={() => setIbHover(false)}
+              style={{ position: "relative", display: "inline-block" }}
             >
-              {comment}
+              <img
+                src="/ib.png"
+                alt="IB Logo"
+                className="icon ib-icon"
+                ref={ibIconRef}
+              />
+              <div
+                ref={ibPopupRef}
+                className={`comment-popup ib-popup ${
+                  ibAlignLeft ? "left" : "right"
+                } ${ibShowBelow ? "below" : "above"}`}
+                style={{
+                  visibility: ibHover ? "visible" : "hidden",
+                  pointerEvents: ibHover ? "auto" : "none",
+                }}
+              >
+                This is a graded exemplar "provided" by the IB.
+              </div>
             </div>
-          </div>
-        )}
+          )}
+
+          {hasClastifyTag && (
+            <div
+              onMouseEnter={() => {
+                setClastifyHover(true);
+                updateClastifyPosition();
+              }}
+              onMouseLeave={() => setClastifyHover(false)}
+              style={{ position: "relative", display: "inline-block" }}
+            >
+              <img
+                src="/clastify.png"
+                alt="Clastify Logo"
+                className="icon clastify-icon"
+                ref={clastifyIconRef}
+              />
+              <div
+                ref={clastifyPopupRef}
+                className={`comment-popup clastify-popup ${
+                  clastifyAlignLeft ? "left" : "right"
+                } ${clastifyShowBelow ? "below" : "above"}`}
+                style={{
+                  visibility: clastifyHover ? "visible" : "hidden",
+                  pointerEvents: clastifyHover ? "auto" : "none",
+                }}
+              >
+                Liberated from Crapify.
+              </div>
+            </div>
+          )}
+
+          {comment && (
+            <div
+              style={{ position: "relative", display: "inline-block" }}
+              onMouseEnter={() => {
+                setCommentHover(true);
+                updateCommentPosition();
+              }}
+              onMouseLeave={() => setCommentHover(false)}
+            >
+              <FaRegComment
+                className="icon"
+                ref={commentIconRef}
+                aria-label={comment}
+              />
+              <div
+                ref={commentRef}
+                className={`comment-popup ${alignLeft ? "left" : "right"} ${
+                  showBelow ? "below" : "above"
+                }`}
+                style={{
+                  visibility: commentHover ? "visible" : "hidden",
+                  pointerEvents: commentHover ? "auto" : "none",
+                }}
+              >
+                {comment}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
       <a
@@ -96,13 +227,15 @@ export default function Cards({
           {title}
         </h3>
         <div className="card-tags" aria-hidden>
-          {tags.map((tag, idx) => {
-            return (
+          {tags
+            .filter(
+              (tag) => tag.trim() !== "IB Exemplar" && tag.trim() !== "Clastify"
+            )
+            .map((tag, idx) => (
               <span key={idx} className="tag">
                 {tag}
               </span>
-            );
-          })}
+            ))}
         </div>
       </a>
     </article>

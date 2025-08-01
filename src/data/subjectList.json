@@ -39,10 +39,25 @@
         },
         { "code": "LIT_INDONESIAN", "name": "Indonesian A: Literature" },
         {
+          "code": "LANG_LIT_NORWEGIAN",
+          "name": "Norwegian A: Language and Literature"
+        },
+        { "code": "LIT_NORWEGIAN", "name": "Norwegian A: Literature" },
+        {
+          "code": "LANG_LIT_SWEDISH",
+          "name": "Swedish A: Language and Literature"
+        },
+        { "code": "LIT_SWEDISH", "name": "Swedish A: Literature" },
+        {
           "code": "LANG_LIT_KOREAN",
           "name": "Korean A: Language and Literature"
         },
         { "code": "LIT_KOREAN", "name": "Korean A: Literature" },
+        {
+          "code": "LANG_LIT_FINNISH",
+          "name": "Finnish A: Language and Literature"
+        },
+        { "code": "LIT_FINNISH", "name": "Finnish A: Literature" },
         { "code": "LIT_MALAY", "name": "Malay A: Literature" },
         { "code": "LIT_POLISH", "name": "Polish A: Literature" },
         {
@@ -51,20 +66,25 @@
         },
         { "code": "LIT_PORTUGUESE", "name": "Portuguese A: Literature" },
         {
+          "code": "LANG_LIT_TURKISH",
+          "name": "Turkish A: Language and Literature"
+        },
+        { "code": "LIT_TURKISH", "name": "Turkish A: Literature" },
+        {
           "code": "LANG_LIT_RUSSIAN",
           "name": "Russian A: Language and Literature"
         },
         { "code": "LIT_RUSSIAN", "name": "Russian A: Literature" },
         {
+          "code": "LANG_LIT_ROMANIAN",
+          "name": "Romanian A: Language and Literature"
+        },
+        { "code": "LIT_ROMANIAN", "name": "Romanian A: Literature" },
+        {
           "code": "LANG_LIT_SPANISH",
           "name": "Spanish A: Language and Literature"
         },
-        { "code": "LIT_SPANISH", "name": "Spanish A: Literature" },
-        {
-          "code": "LANG_LIT_OTHER",
-          "name": "Other Language A: Language and Literature"
-        },
-        { "code": "LIT_OTHER", "name": "Other Language A: Literature" }
+        { "code": "LIT_SPANISH", "name": "Spanish A: Literature" }
       ]
     },
     {
@@ -73,6 +93,7 @@
         { "code": "AB_ARABIC", "name": "Arabic ab initio" },
         { "code": "B_ARABIC", "name": "Arabic B" },
         { "code": "B_CHINESE", "name": "Chinese B" },
+        { "code": "B_MANDARIN", "name": "Mandarin B" },
         { "code": "B_DANISH", "name": "Danish B" },
         { "code": "AB_ENGLISH", "name": "English ab initio" },
         { "code": "B_ENGLISH", "name": "English B" },
@@ -86,12 +107,21 @@
         { "code": "B_ITALIAN", "name": "Italian B" },
         { "code": "AB_JAPANESE", "name": "Japanese ab initio" },
         { "code": "B_JAPANESE", "name": "Japanese" },
-        { "code": "LATIN", "name": "Latin" },
+        { "code": "B_TAMIL", "name": "Tamil B" },
         { "code": "AB_MANDARIN", "name": "Mandarin ab initio" },
         { "code": "AB_SPANISH", "name": "Spanish ab initio" },
         { "code": "B_SPANISH", "name": "Spanish B" },
-        { "code": "AB_OTHER", "name": "Other Language ab initio" },
-        { "code": "B_OTHER", "name": "Other Language B" }
+        { "code": "B_SWEDISH", "name": "Swedish B" },
+        { "code": "B_TURKISH", "name": "Turkish B" },
+        { "code": "B_PORTUGUESE", "name": "Portuguese B" },
+        { "code": "B_RUSSIAN", "name": "Russian B" },
+        { "code": "B_KOREAN", "name": "Korean B" },
+        { "code": "B_DUTCH", "name": "Dutch B" },
+        { "code": "B_FINNISH", "name": "Finnish B" },
+        { "code": "B_NORWEGIAN", "name": "Norwegian B" },
+        { "code": "B_POLISH", "name": "Polish B" },
+        { "code": "B_PORTUGUESE", "name": "Portuguese B" },
+        { "code": "LATIN", "name": "Latin" }
       ]
     },
     {

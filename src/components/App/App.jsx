@@ -72,12 +72,9 @@ export default function App() {
                 }`}
                 onClick={() => setViewMode("card")}
                 aria-label="Card view"
+                title="Card view"
               >
-                <FaTh
-                  size={18}
-                  className="icon-toggle-icon"
-                  title="Card view"
-                />
+                <FaTh size={18} className="icon-toggle-icon" />
               </button>
               <button
                 className={`icon-toggle ${
@@ -85,12 +82,9 @@ export default function App() {
                 }`}
                 onClick={() => setViewMode("row")}
                 aria-label="Table view"
+                title="Table view"
               >
-                <PiListLight
-                  size={18}
-                  className="icon-toggle-icon"
-                  title="Table view"
-                />
+                <PiListLight size={18} className="icon-toggle-icon" />
               </button>
             </div>
           </div>
