@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "preact/hooks";
 import { FaRegComment } from "react-icons/fa";
 
 export default function Cards({

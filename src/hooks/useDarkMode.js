@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "preact/hooks";
 
 export default function useDarkMode() {
   const [isDarkMode, setIsDarkMode] = useState(

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "preact/hooks";
 import { FaTh } from "react-icons/fa";
 import { PiListLight } from "react-icons/pi";
 

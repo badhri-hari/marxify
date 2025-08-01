@@ -1,6 +1,5 @@
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "preact/hooks";
 import Select from "react-select";
-import classNames from "classnames";
 
 import "./SidebarFilter.css";
 import "./SidebarFilter-mobile.css";
@@ -149,9 +148,9 @@ export default function Sidebar({
           {COURSEWORK.slice(0, 2).map((cw) => (
             <button
               key={cw}
-              className={classNames("cw-button", {
-                selected: selectedCoursework === cw,
-              })}
+              className={`cw-button${
+                selectedCoursework === cw ? " selected" : ""
+              }`}
               onClick={() =>
                 setSelectedCoursework(selectedCoursework === cw ? "" : cw)
               }
@@ -165,9 +164,9 @@ export default function Sidebar({
           {COURSEWORK.slice(2).map((cw) => (
             <button
               key={cw}
-              className={classNames("cw-button", {
-                selected: selectedCoursework === cw,
-              })}
+              className={`cw-button${
+                selectedCoursework === cw ? " selected" : ""
+              }`}
               onClick={() =>
                 setSelectedCoursework(selectedCoursework === cw ? "" : cw)
               }

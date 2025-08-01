@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "preact/hooks";
 import sampleData from "../../data/courseworkFiles.json";
 
 import "./CourseworkTable.css";

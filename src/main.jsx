@@ -1,10 +1,4 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-
+import { render } from "preact";
 import App from "./components/App/App";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+render(<App />, document.getElementById("root"));
