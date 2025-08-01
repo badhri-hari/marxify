@@ -87,6 +87,19 @@ export default function CourseworkTable({
                 const { subject, type, month, year } = parseTags(tags);
                 const session = month && year ? `${month} ${year}` : "";
 
+                let appendedComment = comment || "";
+                if (comment) {
+                  if (tags.includes("IB Exemplar")) {
+                    appendedComment += ` ` + (
+                      <em>This is a graded exemplar "provided" by the IB.</em>
+                    );
+                  } else if (tags.includes("Clastify")) {
+                    appendedComment += ` ` + (
+                      <em>Liberated from Crapify.</em>
+                    );
+                  }
+                }
+
                 return (
                   <tr key={id} className="table-row">
                     <td className="table-title-td" aria-label={title}>
@@ -120,7 +133,15 @@ export default function CourseworkTable({
                     )}
                     <td className="table-comment-td">
                       {comment ? (
-                        <span aria-label={comment}>{comment}</span>
+                        <span aria-label={comment}>
+                          {comment}
+                          {tags.includes("IB Exemplar") && (
+                            <em> This is a graded exemplar "provided" by the IB.</em>
+                          )}
+                          {tags.includes("Clastify") && !tags.includes("IB Exemplar") && (
+                            <em> Liberated from Crapify.</em>
+                          )}
+                        </span>
                       ) : (
                         <span aria-hidden="true">—</span>
                       )}

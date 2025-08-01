@@ -1,7 +1,8 @@
 header {
+  padding: 1.5rem 4rem;
+  padding-top: 0.9rem;
   background-color: #f14668;
   color: white;
-  padding: 2.5rem 4rem;
 }
 
 .image-container {

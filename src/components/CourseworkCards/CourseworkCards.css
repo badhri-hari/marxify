@@ -65,7 +65,7 @@ main {
 }
 
 .comment-popup {
-  display: none;
+  display: block;
   position: absolute;
   width: 250px;
   z-index: 100000000;
@@ -78,10 +78,6 @@ main {
   padding-left: 15px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   white-space: pre-wrap;
-}
-
-.comment-wrapper:hover .comment-popup {
-  display: block;
 }
 
 .comment-popup.right {
@@ -137,28 +133,16 @@ main {
 }
 
 .ib-popup.above.right::after {
-  bottom: -11.5px;
-  left: -12px;
   border-bottom-color: #14a1d1;
-  transform: rotate(-135deg);
 }
 .ib-popup.above.left::after {
-  bottom: -11.5px;
-  right: -12px;
   border-bottom-color: #14a1d1;
-  transform: rotate(-225deg);
 }
 .ib-popup.below.right::after {
-  top: -12px;
-  left: -12px;
   border-top-color: #14a1d1;
-  transform: rotate(-225deg);
 }
 .ib-popup.below.left::after {
-  top: -12px;
-  right: -12px;
   border-top-color: #14a1d1;
-  transform: rotate(225deg);
 }
 
 .clastify-popup {
@@ -166,28 +150,16 @@ main {
 }
 
 .clastify-popup.above.right::after {
-  bottom: -11.5px;
-  left: -12px;
   border-bottom-color: #837b79;
-  transform: rotate(-135deg);
 }
 .clastify-popup.above.left::after {
-  bottom: -11.5px;
-  right: -12px;
   border-bottom-color: #837b79;
-  transform: rotate(-225deg);
 }
 .clastify-popup.below.right::after {
-  top: -12px;
-  left: -12px;
   border-top-color: #837b79;
-  transform: rotate(-225deg);
 }
 .clastify-popup.below.left::after {
-  top: -12px;
-  right: -12px;
   border-top-color: #837b79;
-  transform: rotate(225deg);
 }
 
 .icon {
@@ -202,7 +174,6 @@ main {
   height: 20px;
   margin: -15.25px 12px -5px auto;
   border-radius: 100%;
-  cursor: pointer;
   display: inline-block;
   object-fit: contain;
   vertical-align: middle;
@@ -213,7 +184,6 @@ main {
   height: 29px;
   margin: -16px 10px -5px auto;
   border-radius: 100%;
-  cursor: pointer;
   display: inline-block;
   object-fit: contain;
   vertical-align: middle;

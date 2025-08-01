@@ -2,6 +2,10 @@
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 html,
 body {
   margin: 0;
@@ -90,6 +94,14 @@ a:hover {
 .icon-toggle-icon {
   color: #333;
 }
+
+@media (min-width: 900px) {
+ ::selection {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #f14668;
+  }
+}
+
 
 @media (max-width: 900px) {
   .app-container {

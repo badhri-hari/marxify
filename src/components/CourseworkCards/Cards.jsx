@@ -10,7 +10,7 @@ export default function Cards({
   score,
   link,
 }) {
-  const commentRef = useRef(null);
+  const commentPopupRef = useRef(null);
   const commentIconRef = useRef(null);
   const ibPopupRef = useRef(null);
   const ibIconRef = useRef(null);
@@ -30,10 +30,10 @@ export default function Cards({
   const hasIBTag = tags.some((tag) => tag.trim() === "IB Exemplar");
   const hasClastifyTag = tags.some((tag) => tag.trim() === "Clastify");
 
-  const updateCommentPosition = () => {
-    if (!commentRef.current || !commentIconRef.current) return;
+const updateCommentPosition = () => {
+    if (!commentPopupRef.current || !commentIconRef.current) return;
 
-    const popupRect = commentRef.current.getBoundingClientRect();
+    const popupRect = commentPopupRef.current.getBoundingClientRect();
     const iconRect = commentIconRef.current.getBoundingClientRect();
 
     const spaceRight = window.innerWidth - iconRect.right;
@@ -150,6 +150,7 @@ export default function Cards({
                   visibility: ibHover ? "visible" : "hidden",
                   pointerEvents: ibHover ? "auto" : "none",
                 }}
+                aria-label='This is a graded exemplar "provided" by the IB.'
               >
                 This is a graded exemplar "provided" by the IB.
               </div>
@@ -180,6 +181,7 @@ export default function Cards({
                   visibility: clastifyHover ? "visible" : "hidden",
                   pointerEvents: clastifyHover ? "auto" : "none",
                 }}
+                aria-label="Liberated from Crapify."
               >
                 Liberated from Crapify.
               </div>
@@ -188,23 +190,25 @@ export default function Cards({
 
           {comment && (
             <div
-              style={{ position: "relative", display: "inline-block" }}
               onMouseEnter={() => {
                 setCommentHover(true);
                 updateCommentPosition();
               }}
               onMouseLeave={() => setCommentHover(false)}
+              style={{ position: "relative", display: "inline-block" }}
             >
-              <FaRegComment
-                className="icon"
-                ref={commentIconRef}
-                aria-label={comment}
-              />
+             <span ref={commentIconRef} style={{ display: "inline-block" }}>
+  <FaRegComment
+    className="icon"
+    aria-label={comment}
+  />
+</span>
               <div
-                ref={commentRef}
-                className={`comment-popup ${alignLeft ? "left" : "right"} ${
-                  showBelow ? "below" : "above"
-                }`}
+              aria-hidden
+                ref={commentPopupRef}
+                className={`comment-popup ${
+                  alignLeft ? "left" : "right"
+                } ${showBelow ? "below" : "above"}`}
                 style={{
                   visibility: commentHover ? "visible" : "hidden",
                   pointerEvents: commentHover ? "auto" : "none",
