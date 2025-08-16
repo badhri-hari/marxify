@@ -47,7 +47,77 @@
     </script>
   </head>
 
+  <noscript>
+      <style>
+        #root {
+          display: none !important;
+        }
+
+        html {
+          background-color: #000000;
+          text-align: center;
+          padding: 10rem;
+          padding-top: 28%;
+        }
+
+        .no-js-warning {
+          color: #fff;
+          font-family: system-ui, sans-serif;
+        }
+
+        .no-js-warning h1 {
+          color: #fff;
+          font-size: 2rem;
+        }
+        
+        .no-js-warning h1 span {
+          color: #f14668;
+        }
+
+.no-js-warning a {
+          color: #fff;
+          text-decoration: underline;
+          text-decoration-color: #f14668;
+          transition: all 0.2s;
+        }
+
+        .no-js-warning a:hover,
+        .no-js-warning a:focus {
+          color: #f14668;
+          text-decoration: none;
+        }
+        @media (max-width: 900px) {
+      html {
+        padding: 4rem 1rem;
+        padding-top: 30%;
+      }
+
+      .no-js-warning h1 {
+        font-size: 1.25rem;
+      }
+    }
+      </style>
+    </noscript>
+
   <body>
+    <noscript>
+      <div
+        class="no-js-warning"
+        role="alert"
+        aria-label="JavaScript required warning"
+      >
+        <h1><span>Marxify</span> needs JavaScript!</h1>
+
+        <p>
+          Please enable JS to access the largest IB exemplars repository!
+        </p>
+
+        <p>
+          <strong>Privacy details:</strong> We don't log anything, so don't worry about your privacy.
+        </p>
+      </div>
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

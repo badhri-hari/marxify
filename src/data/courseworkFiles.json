@@ -1,18 +1,18 @@
 [
   {
     "title": "Investigating The Effect of Customizeable Configurations of Computer Vision Algorithms on Performance",
-    "tags": ["Computer Science", "EE", "May 2019", "IB Exemplar"],
+    "tags": ["Computer Science", "EE", "May 2019"],
     "rawMark": 32,
     "score": "A",
-    "comment": "Investigating The Effect of Customizeable Configurations of Computer Vision Algorithms on Performance",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_5d751674921b4a939123ee96e337abbf.pdf"
   },
   {
     "title": "To what extent are the binary and jump search algorithms efficient for data sets of increasing sizes?",
-    "tags": ["Computer Science", "EE", "May 2019", "Clastify"],
+    "tags": ["Computer Science", "EE", "May 2019"],
     "rawMark": 21,
     "score": "B",
-    "comment": "To what extent are the binary and jump search algorithms efficient for data sets of increasing sizes?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_5528091f382144c2bc7069683ae56407.pdf"
   },
   {
@@ -20,7 +20,7 @@
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 29,
     "score": "A",
-    "comment": "Assessing the use of machine learning algorithms for predicting the outcome of random number generators.",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_2effd87e251b4e51b74744492085c01e.pdf"
   },
   {
@@ -28,7 +28,7 @@
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 30,
     "score": "A",
-    "comment": "Investigating the time complexities of the AVL Tree and Red-Black Tree insertion algorithms.",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_431b7e94bc5e4b4a91067e422400e1a9.pdf"
   },
   {
@@ -36,7 +36,7 @@
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 26,
     "score": "B",
-    "comment": "Comparing the Performance of Different Classifier Data Mining Algorithms in Relation to the Size of the Training Set",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_d21d726d209a4151b93b2c0b2b54dc19.pdf"
   },
   {
@@ -44,7 +44,7 @@
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 20,
     "score": "C",
-    "comment": "To what extent does varying the speeds of system RAM affect the speeds of a hard disk drive in a computer system in a computerized workplace?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_211ac98c89594a458e82001394f47a4c.pdf"
   },
   {
@@ -52,7 +52,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 26,
     "score": "B",
-    "comment": "What is the difference between the runtime efficiency of Dijkstra's and the A* pathfinding algorithms in finding the shortest path in mazes with varying size?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_580513775d914618986a05b00a402da7.pdf"
   },
   {
@@ -60,7 +60,7 @@
     "tags": ["Computer Science", "EE", "May 2019"],
     "rawMark": 27,
     "score": "A",
-    "comment": "To what extent can Genetic Algorithms optimize the English Keyboard Layout for Speed?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_5ae9936f14d24beeabc95a4fa33780e0.pdf"
   },
   {
@@ -68,7 +68,7 @@
     "tags": ["Computer Science", "EE", "May 2019"],
     "rawMark": 23,
     "score": "B",
-    "comment": "The use of Neural Networks in Verifying Handwritten Signatures",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_bbb0bac26b164cf89ecdaf7968695e38.pdf"
   },
   {
@@ -76,7 +76,7 @@
     "tags": ["Computer Science", "EE", "November 2018"],
     "rawMark": 30,
     "score": "A",
-    "comment": "Investigation Into 256-bit Hashing and Its Vulnerability to Increasing Computing Speeds",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_dbe000af308548609bf9bbb4f9382b9f.pdf"
   },
   {
@@ -84,7 +84,7 @@
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 17,
     "score": "C",
-    "comment": "To what extent would Depth first search or Breadth first search be suitable for search in graph data structures used by social networks, taking time and memory as determining factors, in the java virtual machine?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_06bc16409bbb4ab783952d899f4a70c8.pdf"
   },
   {
@@ -92,7 +92,7 @@
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 29,
     "score": "A",
-    "comment": "To what extent does Kernel Page Table Isolation affect performance in systems powered by Intel CPUs?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_47a51123279a4cbfb412ca87bc78ae93.pdf"
   },
   {
@@ -100,7 +100,7 @@
     "tags": ["Computer Science", "EE", "November 2019"],
     "rawMark": 17,
     "score": "C",
-    "comment": "To what extent the variation in search pattern will affect the efficiency of Rabin Karp algorithm and Boyer Moore algorithm in the terms of time complexity?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_2ad847e9fb9c4abf87e6f58befe23100.pdf"
   },
   {
@@ -108,7 +108,7 @@
     "tags": ["Computer Science", "EE", "May 2020"],
     "rawMark": 27,
     "score": "A",
-    "comment": "To what extent is the TF-IDF score a reliable means of classifying text and predicting job titles?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_c3e9a0476ac24e24b8692e4bd8e9b53a.pdf"
   },
   {
@@ -116,7 +116,7 @@
     "tags": ["Computer Science", "EE", "May 2020"],
     "rawMark": 31,
     "score": "A",
-    "comment": "To what extent are character-level convolutional neural networks viable for classifying texts by their century of creation?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_30642b7c1ef74cc79f1a1f509602e5e8.pdf"
   },
   {
@@ -124,7 +124,7 @@
     "tags": ["Computer Science", "EE", "May 2020"],
     "rawMark": 17,
     "score": "C",
-    "comment": "How effective are graph path searching and traversing algorithms compared to tree ones?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_affeaf5b97e64492bd32f98b9f5fb76d.pdf"
   },
   {
@@ -132,7 +132,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 28,
     "score": "A",
-    "comment": "To what extent is the GNU C library heap implementation on glibc version 2.31 more secure than version 2.15 and how has this affected its performance?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_880f84c14f954c4f95142fda6d1e645f.pdf"
   },
   {
@@ -140,7 +140,7 @@
     "tags": ["Computer Science", "EE", "May 2020"],
     "rawMark": 24,
     "score": "B",
-    "comment": "Investigating the efficiency of AES and RSA Encryption algorithms in terms of the memory used and time taken to encrypt/decrypt alphanumeric data",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_01fcb311254c42ec985bd32b893943fb.pdf"
   },
   {
@@ -148,7 +148,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 24,
     "score": "B",
-    "comment": "Which type of random number generator most consistently produces sufficiently random binary sequences?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_91bc823789014bad9808f14abfb8c191.pdf"
   },
   {
@@ -156,7 +156,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 29,
     "score": "A",
-    "comment": "To what extent is a divide-and-conquer algorithm applicable to solving the problem of ordinal classification with a binary classifier in terms of time complexity and performance?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_73cd570d568244859190a29995589a32.pdf"
   },
   {
@@ -164,7 +164,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 28,
     "score": "A",
-    "comment": "How does the sorting efficiency of the Tree Sort compare to that of the Heap Sort in terms of time complexity for increasing sizes of randomized integer datasets?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_e43a65cb41e24a5baf8e39b37629f3d1.pdf"
   },
   {
@@ -172,7 +172,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 26,
     "score": "A",
-    "comment": "To what extent register-based bytecode is more suitable for high-performance process virtual machines than stack-based bytecode?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_ea6cb72f5ad44f98a0f660f402c7e6d0.pdf"
   },
   {
@@ -180,7 +180,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 16,
     "score": "C",
-    "comment": "To what extent is type inference possible for statically typed polymorphic object-oriented programming languages?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_a4450177ac944cf0a7110d46c61702b7.pdf"
   },
   {
@@ -188,7 +188,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 22,
     "score": "B",
-    "comment": "How far does Dijkstra's search algorithm compare to A* search algorithm for finding the shortest path in a graph as the size of the graph increases by number of vertices?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_a4e1921abfda45ddacbfb840b41ea374.pdf"
   },
   {
@@ -196,7 +196,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 14,
     "score": "C",
-    "comment": "To what extent is the Chinese Pinyin IME different from Chinese Stroke IME in terms of speed and efficiency?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_6e367149a33142cbb5aef295e3d339de.pdf"
   },
   {
@@ -204,7 +204,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 27,
     "score": "A",
-    "comment": "To what extent do contemporary quantum computing solutions affect the current and future security of RSA as a public key cryptography solution?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_9620c000ac314a34a983190fce3b0158.pdf"
   },
   {
@@ -212,7 +212,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 26,
     "score": "A",
-    "comment": "Investigating Relationship Between Covid-19 and Spectrograms of Coughing Acoustics Through the Use of Convolutional Neural Network",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_3d36dcd938b641b59bfaaefc8dce5685.pdf"
   },
   {
@@ -220,7 +220,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 23,
     "score": "B",
-    "comment": "A Comparative Study of the Blowfish and RSA Encryption Algorithms' speed while encrypting data of different sizes.",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_1c6f9d796063438885de2c44b57ad9b8.pdf"
   },
   {
@@ -228,7 +228,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 27,
     "score": "A",
-    "comment": "To what extent is the performance of tournament selection strategy better than that of roulette wheel selection in solving the Knapsack Problem in terms of convergence rate and quality of the solution with different configurations?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_632b41c8c69a475ea7cd4f8a396dbbcd.pdf"
   },
   {
@@ -236,7 +236,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 26,
     "score": "A",
-    "comment": "Investigating the effect on performance using a data structure in graph algorithms",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_52c977bcf7294e788e6f21aeb5308876.pdf"
   },
   {
@@ -244,7 +244,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 26,
     "score": "A",
-    "comment": "How accurate and efficient are different neural networks in solving the protein folding problem?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_cb39c44a1c074609a2be77b0e842191f.pdf"
   },
   {
@@ -252,7 +252,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 29,
     "score": "A",
-    "comment": "Which hashing algorithm out of MD5 and SHA -1 is the best in validating data transfer using SFTP (simple file transfer protocol) over a network that implements SSH protocol in terms of speed of data transfer and collision resistance?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_ba1b5a377a3846a4b2e57bd2d6e9e73a.pdf"
   },
   {
@@ -260,7 +260,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 23,
     "score": "B",
-    "comment": "To what extent Branch and Bound algorithm, Greedy algorithm and the Christofides' algorithm are efficient ways of solving the Travelling Salesman Problem (TSP)?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_9b317f72018440bab027a355c0f720b4.pdf"
   },
   {
@@ -268,7 +268,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 29,
     "score": "A",
-    "comment": "To what extent is the speed of a Levenshtein's distance-based approximate string-matching algorithm different when being processed on a CPU vs. on a GPU?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_1e5eaa9f41cb42ec97536f570297b24d.pdf"
   },
   {
@@ -276,7 +276,7 @@
     "tags": ["Computer Science", "EE", "November 2022"],
     "rawMark": 27,
     "score": "A",
-    "comment": "In Solving the Travelling Salesman Problem Using a Genetic Algorithm, How Does Order Crossover Compare to Partially Mapped Crossover in Terms of Improving the Efficiency of Convergence and Optimality of the Solution?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_da3681bae7254c96bae278c41450420d.pdf"
   },
   {
@@ -284,7 +284,7 @@
     "tags": ["Computer Science", "EE", "November 2022"],
     "rawMark": 29,
     "score": "A",
-    "comment": "How does the genetic algorithm compare to that of the particle swarm optimization algorithm in providing solutions to optimization problems in terms of speed and accuracy?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_fc90188c60c24b5698bbe5299b9e1370.pdf"
   },
   {
@@ -292,7 +292,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 22,
     "score": "B",
-    "comment": "To what extent can the genetic algorithm be applied in constructing decision trees for data classification?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_aa1404ef72d1488586d3c48b992cda94.pdf"
   },
   {
@@ -300,7 +300,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 29,
     "score": "A",
-    "comment": "To what extent is the performance of the k-means clustering algorithm in unsupervised learning influenced by the initial placement algorithm, the number of features, and the number of clusters?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_366c1c3315294224acb5d5c5e3bfc1dd.pdf"
   },
   {
@@ -308,7 +308,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 30,
     "score": "A",
-    "comment": "To what extent can a Feed Forward Neural Network successfully mitigate an HTTP-flood distributed denial-of-service attack?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_827874013c30475bbd04d51fc1efb240.pdf"
   },
   {
@@ -316,7 +316,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 25,
     "score": "B",
-    "comment": "How does \"k-nearest neighbour algorithm\" compare to \"Naïve Bayes algorithm\" in diagnosing Parkinson's Disease, when using striatum dimensional features as input data?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_6a0c1b67675b43b4989ac3a381f80b79.pdf"
   },
   {
@@ -324,7 +324,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 30,
     "score": "A",
-    "comment": "To what extent is the ability of an intelligent agent to operate in unfamiliar scenarios affected by the number of hidden-layer neurons in its neural network and the number of generations it is trained for?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_c34eee596f47410dbf924796cd6e87a3.pdf"
   },
   {
@@ -332,7 +332,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 20,
     "score": "C",
-    "comment": "How effectively do the hyperparameters of a GANs influence its ability to generate high-quality images and its time complexity?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_bac7a79f156645d8897f15086d6299f1.pdf"
   },
   {
@@ -340,7 +340,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 23,
     "score": "B",
-    "comment": "To what extent does Smoothing Reduce False Edge Detection from Blurry Areas of Images on Various Edge Detection Algorithms?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_eaa6574a4d934bb3a56c1728d2271be2.pdf"
   },
   {
@@ -348,7 +348,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 18,
     "score": "C",
-    "comment": "How does Netflix's Recommendation Algorithm use a collaborative filtering-based recommender system to provide efficient recommendations to users?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_1a6702c9051f414fadcf57590918e324.pdf"
   },
   {
@@ -356,7 +356,7 @@
     "tags": ["Computer Science", "EE", "May 2023"],
     "rawMark": 32,
     "score": "A",
-    "comment": "To what extent is the accuracy of LSTM neural Networks for the prediction of bitcoin pricing influenced by time frequencies?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_b9fa9b8ab76f417894e1aded61be4038.pdf"
   },
   {
@@ -364,7 +364,7 @@
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 27,
     "score": "A",
-    "comment": "How do convolutional neural networks compare to recurrent neural networks in terms of speed and accuracy when performing speech recognition?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_0e6fe32122cb4fb4a3f4f7b2020b090f.pdf"
   },
   {
@@ -372,7 +372,7 @@
     "tags": ["Computer Science", "EE", "May 2022"],
     "rawMark": 28,
     "score": "A",
-    "comment": "To what extent is the performance of a neural network dependent on the batch size and number of epochs at varying rates of training data mislabelling?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_e854d1d22f154dc589e88b5f367f26db.pdf"
   },
   {
@@ -380,7 +380,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 28,
     "score": "A",
-    "comment": "To what extent do increasing processor speeds impact the efficiency of brute-force attacks against Merkle-Damg ̊ard-based cryptographic hashing functions?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_5b1333a0a3a043cab90df4e4cefd363e.pdf"
   },
   {
@@ -388,7 +388,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 28,
     "score": "A",
-    "comment": "To what extent does increasing the number of children impact the Surface Area Heuristic ratio and Build Time in Bounding Volume Hierarchies in Ray Tracing Applications?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_dd504f6988be4718bb194c0d13b935a3.pdf"
   },
   {
@@ -396,7 +396,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 30,
     "score": "A",
-    "comment": "To what extent do branch mispredictions affect the performance of well-known comparison sorts?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_51bf3902a67f435798652b7873ffd67b.pdf"
   },
   {
@@ -404,7 +404,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 27,
     "score": "A",
-    "comment": "How does the Spectre vulnerability patch affect the performance of systems operated by AMD CPUs?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_425ae565a1c54fdf9d3f87f319f0d206.pdf"
   },
   {
@@ -412,7 +412,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 30,
     "score": "A",
-    "comment": "Which model, ARIMA or LSTM, demonstrates superior accuracy in predicting stock prices based on empirical evidence?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_f58126e5ddae4a56835ec0bd994228a1.pdf"
   },
   {
@@ -420,7 +420,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 15,
     "score": "C",
-    "comment": "Which Lossless algorithm between Huffman Coding and Shannon-Fano Coding is more efficient in terms of their Compression Ratio?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_876776d9c3974c6582def0aeaa68bcc4.pdf"
   },
   {
@@ -428,7 +428,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 29,
     "score": "A",
-    "comment": "How Does the Use of a Priority Queue and the Implementation of Bellman-Ford and Dijkstra's Algorithm Affect the Time Complexity of Solving the Shortest Path Problem in Weighted Graphs?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_d0de7752477544fbb6ad23a1bb2b4fc6.pdf"
   },
   {
@@ -436,7 +436,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 24,
     "score": "B",
-    "comment": "Evaluating and comparing the effectiveness of large language models to static code analysis tools for vulnerability detection in software source code.",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_0fcf4ab781b4400da47715283ad48c59.pdf"
   },
   {
@@ -444,7 +444,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 24,
     "score": "B",
-    "comment": "How does Kruskal's algorithm compare to Prim's algorithm in finding a minimum spanning tree in a graph in terms of running time across graphs with varying densities?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_a705862e00af483ba9651421051052d1.pdf"
   },
   {
@@ -452,7 +452,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 30,
     "score": "A",
-    "comment": "How does the Elitist Genetic Algorithm compare to Ant Colony System in terms of time complexity and accuracy when attempting to solve the Travelling Salesman Problem?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_cf0647496c60406c966e2e1e221a1783.pdf"
   },
   {
@@ -460,7 +460,7 @@
     "tags": ["Computer Science", "EE", "May 2024"],
     "rawMark": 28,
     "score": "A",
-    "comment": "What is the relative forecasting accuracy of SARIMA and PROPHET models for daily COVID-19 cases in South Korea?",
+    "comment": "",
     "link": "https://marxify.pages.dev/720584_31563ac6e5874f3e907cbf4eba7902c0.pdf"
   },
   {
@@ -472,7 +472,7 @@
     "link": "https://marxify.pages.dev/EE_CompSci_B_30_nov24.pdf"
   },
   {
-    "title": "Full source + extra content on GitHub: https://github.com/codeofdusk/ee",
+    "title": "Analysis of Wikipedia talk pages created before their corresponding articles",
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 21,
     "score": "B",
@@ -488,99 +488,99 @@
     "link": "https://marxify.pages.dev/EE_Chemistry_B_24_nov24.pdf"
   },
   {
-    "title": "",
+    "title": "What are the impacts of Canada’s single-use plastics ban on large restaurant chains nationwide?",
     "tags": ["Global Politics", "IA", "SL", "May 2020"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/H2SRHul8UK60R12B.pdf"
   },
   {
-    "title": "",
+    "title": "A dollar to light up: smokers brace for another jump in tobacco excise",
     "tags": ["Economics", "IA", "HL", "November 2016"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/yvtAX59PePA5Far9.pdf"
   },
   {
-    "title": "Micro: taxation/market failure, macro: expansionary fiscal policy, intl.: tariffs",
+    "title": "South Africa set to introduce long-awaited carbon tax in June",
     "tags": ["Economics", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "Micro: taxation/market failure, macro: expansionary fiscal policy, intl.: tariffs",
     "link": "https://marxify.pages.dev/fX3s2AyhgQqmFidC.pdf"
   },
   {
-    "title": "Macroeconomics IA, that was a part of 37/45 IA portfolio, unfortunately not sure about the specific score on this exact IA",
+    "title": "India delivers surprise corporate tax cuts to boost economy",
     "tags": ["Economics", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "Macroeconomics IA, that was a part of 37/45 IA portfolio, unfortunately not sure about the specific score on this exact IA",
     "link": "https://marxify.pages.dev/u4vkjfqG12TfKjdE.pdf"
   },
   {
-    "title": "International economics IA, that was a part of 37/45 IA portfolio, unfortunately not sure about the specific score on this exact IA",
+    "title": "China sugar industry to lobby government for extension of hefty tariffs on imports",
     "tags": ["Economics", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "International economics IA, that was a part of 37/45 IA portfolio, unfortunately not sure about the specific score on this exact IA",
     "link": "https://marxify.pages.dev/XKzj2inWkmBamJpa.pdf"
   },
   {
-    "title": "Idk the raw marks for each IA, but the final of 3 was 36, and scored 6 in total. [UWC East Africa, '21]",
+    "title": "In South India, Amazon Builds Its Largest Office Yet",
     "tags": ["Economics", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "Idk the raw marks for each IA, but the final of 3 was 36, and scored 6 in total. [UWC East Africa, '21]",
     "link": "https://marxify.pages.dev/ynJdL50PBS87k6iB.pdf"
   },
   {
-    "title": "Idk the raw marks for each IA, but the final of 3 was 36, and scored 6 in total. [UWC East Africa, '21]",
+    "title": "Meat, Butter [Sugar and Vegetable Oil] Considered ‘Luxuries’ As Tajiks Face Steep Price Hikes",
     "tags": ["Economics", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "Idk the raw marks for each IA, but the final of 3 was 36, and scored 6 in total. [UWC East Africa, '21]",
     "link": "https://marxify.pages.dev/zmzskPTDtDlzikfH.pdf"
   },
   {
-    "title": "Idk the raw marks for each IA, but the final of 3 was 36, and scored 6 in total. [UWC East Africa, '21]",
+    "title": "China slaps up to 200% tariffs on Australian wine",
     "tags": ["Economics", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "Idk the raw marks for each IA, but the final of 3 was 36, and scored 6 in total. [UWC East Africa, '21]",
     "link": "https://marxify.pages.dev/N9xzvDraWBIm2mGM.pdf"
   },
   {
-    "title": "",
+    "title": "Potencial de la memoria a corto plazo, ante la variación de condiciones de estímulos en los receptores sensoriales auditivos humanos",
     "tags": ["Biology", "IA", "SL", "May 2020"],
     "score": "A",
     "comment": "",
     "link": "https://marxify.pages.dev/NQdZe3FNs7K66HrG.pdf"
   },
   {
-    "title": "Group 1, Category 3 EE on identity in the ​\"Ms. Marvel​\" comics.",
+    "title": "How is identity developed both as a theme and through Ms. Marvel’s characterisation in Ms. Marvel?",
     "tags": ["English A: Language and Literature", "EE", "May 2019"],
     "rawMark": 33,
     "score": "A",
-    "comment": "Group 1, Category 3 EE on identity in the ​\"Ms. Marvel​\" comics.",
+    "comment": "Group 1, Category 3 EE on identity in the \"Ms. Marvel​\" comics.",
     "link": "https://marxify.pages.dev/0ggvv0DZqKoW0dYk.pdf"
   },
   {
-    "title": "Macro: Expansionary demand-side policy, govt. spending. Internal: 7 Moderated: 6",
+    "title": "Singapore announces new economic stimulus package to tackle pandemic",
     "tags": ["Economics", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "Macro: Expansionary demand-side policy, govt. spending. Internal: 7 Moderated: 6",
     "link": "https://marxify.pages.dev/ftVaRbu2MYLcT3gh.pdf"
   },
   {
-    "title": "Micro: Sugar tax (market failure). Internal: 7 Moderated: 6",
+    "title": "Hitting the sweet spot: The new sugar tax is aimed at curbing Malaysia's sweet tooth",
     "tags": ["Economics", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "Micro: Sugar tax (market failure). Internal: 7 Moderated: 6",
     "link": "https://marxify.pages.dev/X3GSUx7ka6JE2NRw.pdf"
   },
   {
-    "title": "International: Tariffs. Internal: 7 Moderated: 6",
+    "title": "American whiskey distillers are down $340 million thanks to Trump's trade wars",
     "tags": ["Economics", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "International: Tariffs. Internal: 7 Moderated: 6",
     "link": "https://marxify.pages.dev/kK5gwAliXg6IB6rF.pdf"
   },
   {
-    "title": "https://github.com/ansh/Mathematics-Extended-Essay",
+    "title": "How do modern cryptographic methods effectively secure online communications, transactions, and the internet?",
     "tags": ["Math AA", "EE", "May 2019"],
     "rawMark": 33,
     "score": "A",
@@ -588,7 +588,7 @@
     "link": "https://marxify.pages.dev/9plYxpkPjKlxY938.pdf"
   },
   {
-    "title": "",
+    "title": "How does the relative radius of a sphere affect the relative drag force it experiences in a bounded medium?",
     "tags": ["Physics", "EE", "May 2020"],
     "rawMark": 32,
     "score": "A",
@@ -596,14 +596,14 @@
     "link": "https://marxify.pages.dev/0ut3bPaMJ5m8FrLg.pdf"
   },
   {
-    "title": "",
+    "title": "¿De qué manera la presencia del lenguaje metafórico incide en el mundo ficcional del protagonista en la obra \"Las Ruinas Circulares\" de Jorge Luis Borges?",
     "tags": ["Spanish A: Literature", "IA", "HL", "May 2021"],
     "score": "A",
     "comment": "",
     "link": "https://marxify.pages.dev/Nx2yKofA7CYlecU4.pdf"
   },
   {
-    "title": "Category 1. Postmodern-esque worldbuilding in The BFG by Roald Dahl.",
+    "title": "How does Roald Dahl create ambiguity between the concepts of ‘good’ and ‘evil’ through the characterization of giants and humans in The BFG?",
     "tags": ["English A: Language and Literature", "EE", "May 2021"],
     "rawMark": 32,
     "score": "A",
@@ -611,22 +611,15 @@
     "link": "https://marxify.pages.dev/pcUotMs6qkVHPQwP.pdf"
   },
   {
-    "title": "",
-    "tags": ["ITGS", "IA", "HL", "May 2021"],
-    "score": 5,
-    "comment": "",
-    "link": "https://marxify.pages.dev/E40jXmGsROYFANLA.pdf"
-  },
-  {
     "title": "\"To what extent did the mass media structurally transform the public space of Carnatic music?\"",
     "tags": ["History", "EE", "May 2020"],
     "rawMark": 31,
     "score": "A",
-    "comment": "\"To what extent did the mass media structurally transform the public space of Carnatic music?\"",
+    "comment": "",
     "link": "https://marxify.pages.dev/gzMhfzieoGJ4nY9e.pdf"
   },
   {
-    "title": "Not sure what my raw marks are actually because I didn't get access to my grade breakdown but I received an A on this essay",
+    "title": "To what extent can police misconduct be caused by peer influence in police organizations?",
     "tags": ["Psychology", "EE", "May 2021"],
     "rawMark": 31,
     "score": "A",
@@ -634,7 +627,7 @@
     "link": "https://marxify.pages.dev/bIeLFAOheluKFbtt.pdf"
   },
   {
-    "title": "This is my Theatre EE on the theatre company DV8 Physical Theatre that got an A.",
+    "title": "Exploring Society and Culture Through Staging with the Body Central – A Study of DV8 Physical Theatre’s Approach to Expression via Theatre",
     "tags": ["Theatre", "EE", "May 2019"],
     "rawMark": 31,
     "score": "A",
@@ -642,7 +635,7 @@
     "link": "https://marxify.pages.dev/5VXlfvJlIOhswYA8.pdf"
   },
   {
-    "title": "Chinese A EE on Dayo Wong's shows in 1994, 1997 and 1999",
+    "title": "黃子華之棟篤笑藝術技巧初探 黄子華如何在其棟篤笑表演中展現香港本土意識？",
     "tags": ["Chinese A: Language and Literature", "EE", "May 2021"],
     "rawMark": 31,
     "score": "A",
@@ -650,7 +643,7 @@
     "link": "https://marxify.pages.dev/Isf4XeUUM1TRYryA.pdf"
   },
   {
-    "title": "Perdí puntos en Crit C por la evaluación. No es necesario hacer un tema elaborado, el mio es muy simple.",
+    "title": "¿Cuál es el efecto biofertilizante del porcentaje de materia orgánica (0, 2.5, 3.5, 4.5 y 5.5 %) constituida por los residuos de la cáscara de Musa paradisiaca sobre la longitud total y la biomasa fresca en el cultivo de Phaseolus vulgaris L.?",
     "tags": ["Biology", "EE", "November 2021"],
     "rawMark": 30,
     "score": "A",
@@ -661,11 +654,11 @@
     "title": "CS IA (DATABASE PROJECT {PHP & MySQL})",
     "tags": ["Computer Science", "IA", "HL", "May 2020"],
     "score": 7,
-    "comment": "CS IA (DATABASE PROJECT {PHP & MySQL})",
+    "comment": "",
     "link": "https://marxify.pages.dev/4PBEhi9jzVaCO4IB.pdf"
   },
   {
-    "title": "Likely lost the marks in critical thinking and reflections. Supervisor predicted high C, low B. Ended up with a mid A.",
+    "title": "To what extent does Dulwich College Singapore possess an urban or nature reserve microclimate?",
     "tags": ["Geography", "EE", "May 2021"],
     "rawMark": 30,
     "score": "A",
@@ -673,7 +666,7 @@
     "link": "https://marxify.pages.dev/1quyGirHBjz9Pcik.pdf"
   },
   {
-    "title": "",
+    "title": "How does the re-balancing algorithm efficiency of an Adelson-Velskii and Landis Tree compare to that of a Red-Black Tree in terms of time complexity upon insertion of values?",
     "tags": ["Computer Science", "EE", "May 2018"],
     "rawMark": 30,
     "score": "A",
@@ -681,8 +674,8 @@
     "link": "https://marxify.pages.dev/G9H8qc3Ut8NeI1vI.pdf"
   },
   {
-    "title": "Was quite happy with it",
-    "tags": ["Math AA", "IA", "HL", "May 2021"],
+    "title": "To what extent do the motion of strings within stringed instruments described by Fourier Series give insight into consonance and dissonance in music theory?",
+    "tags": ["Math AA", "EE", "May 2021"],
     "score": "A",
     "comment": "Was quite happy with it",
     "link": "https://marxify.pages.dev/MhaE31S78B5g4ed5.pdf"
@@ -692,18 +685,18 @@
     "tags": ["Math AA", "EE", "November 2020"],
     "rawMark": 30,
     "score": "A",
-    "comment": "Los Números Surreales como Anillo Unitario Conmutativo",
+    "comment": "",
     "link": "https://marxify.pages.dev/A6yNq61qKd9H3DQk.pdf"
   },
   {
     "title": "Efecto de la Sacarosa y Glucosa en Concentraciones Hipertónicas Durante la Deshidratación Osmótica del Pepino Dulce (Solanum Muricatum).",
     "tags": ["Biology", "IA", "SL", "May 2020"],
     "score": "A",
-    "comment": "Efecto de la Sacarosa y Glucosa en Concentraciones Hipertónicas Durante la Deshidratación Osmótica del Pepino Dulce (Solanum Muricatum).",
+    "comment": "",
     "link": "https://marxify.pages.dev/eyTEEqU9GeVHvUVv.pdf"
   },
   {
-    "title": "Category 1 EE on agency in children's sexual abuse in Lolita and My Dark Vanessa",
+    "title": "What Is the Role of Agency In Kate Elizabeth Russell’s My Dark Vanessa and Vladimir Nabokov’s Lolita?",
     "tags": ["English A: Language and Literature", "EE", "May 2021"],
     "rawMark": 30,
     "score": "A",
@@ -715,26 +708,26 @@
     "tags": ["Math AA", "EE", "May 2019"],
     "rawMark": 30,
     "score": "A",
-    "comment": "Exploring dynamic programming via recursion and the golden ratio",
+    "comment": "",
     "link": "https://marxify.pages.dev/z9wbSSViXkRdkQY5.pdf"
   },
   {
-    "title": "THIS IS NOT THE ORIGINAL VERSION. Original version's written and submitted in French. This is a translation",
+    "title": "What is the relationship between π, the Leibniz series and the distribution of prime numbers?",
     "tags": ["Math AA", "EE", "May 2020"],
     "rawMark": 29,
     "score": "A",
-    "comment": "THIS IS NOT THE ORIGINAL VERSION. Original version's written and submitted in French. This is a translation",
+    "comment": "THIS IS NOT THE ORIGINAL VERSION. Original version's written and submitted in French. This is a translation (note from pirateIB: French version of the essay in another submission)",
     "link": "https://marxify.pages.dev/3vswnm0XiedsGPBx.pdf"
   },
   {
-    "title": "It was an A, but not a very high A.",
-    "tags": ["Global Politics", "IA", "HL", "May 2020"],
+    "title": "Were economic factors the primary motivation behind the USA's invasion of Iraq in 2003?",
+    "tags": ["Global Politics", "EE", "May 2020"],
     "score": "A",
     "comment": "It was an A, but not a very high A.",
     "link": "https://marxify.pages.dev/WekLeSle27UZvo35.pdf"
   },
   {
-    "title": "French version of the essay (English version of the essay in another submission)",
+    "title": "Quelle est la relation entre π, la série de Leibniz et la distribution des nombres premiers ?",
     "tags": ["Math AA", "EE", "May 2020"],
     "rawMark": 29,
     "score": "A",
@@ -742,14 +735,14 @@
     "link": "https://marxify.pages.dev/0tpsj0MFKHzYJALL.pdf"
   },
   {
-    "title": "IA on CO2 uptake by aquatic plants",
+    "title": "How does modelling changes in turbidity through decreasing available light influence the photosynthesis rates of freshwater elodea as indicated by pH?",
     "tags": ["ESS", "IA", "SL", "May 2019"],
     "score": 7,
     "comment": "IA on CO2 uptake by aquatic plants",
     "link": "https://marxify.pages.dev/qknJsfA6RXqBxsdE.pdf"
   },
   {
-    "title": "RSA, Discrete Math EE",
+    "title": "How is Rivest-Shamir-Adleman cryptography used today to secure information in the world wide web?",
     "tags": ["Math AA", "EE", "May 2021"],
     "rawMark": 29,
     "score": "A",
@@ -757,7 +750,7 @@
     "link": "https://marxify.pages.dev/8Xk53wbWn3CgTxUP.pdf"
   },
   {
-    "title": "No one expected this EE to be an A(including myself and my teacher), so be  careful when looking at this as an example for A grade essay",
+    "title": "To what extent does seasonality affect Riga’s real estate market?",
     "tags": ["Economics", "EE", "May 2020"],
     "rawMark": 28,
     "score": "A",
@@ -765,7 +758,7 @@
     "link": "https://marxify.pages.dev/L681po9PDXrgG163.pdf"
   },
   {
-    "title": "I wrote an EE on SHREK and got an A. Need I say more.",
+    "title": "To what extent does Shrek’s screenplay use postmodernist linguistic techniques to subvert fairy tales and represent the evolution of societal values?",
     "tags": ["English A: Language and Literature", "EE", "May 2021"],
     "rawMark": 28,
     "score": "A",
@@ -773,7 +766,7 @@
     "link": "https://marxify.pages.dev/N8i3I1NUxVokG0Gm.pdf"
   },
   {
-    "title": "Theme: Science, Technology and Society",
+    "title": "To what extent has technology impacted acquired English Language Fluency in rural India?",
     "tags": ["World Studies", "EE", "May 2020"],
     "rawMark": 28,
     "score": "A",
@@ -781,14 +774,14 @@
     "link": "https://marxify.pages.dev/o732E0aonb7RjjyP.pdf"
   },
   {
-    "title": "This is a database EE, so it can help those that are struggling with how to write one.",
+    "title": "How does the efficiency (speed) and safety (degree of danger from fibrinolytics versus anticoagulants) of antithrombotic processes of S. mansoni compare to those of existing warfarin medication?",
     "tags": ["Biology", "IA", "HL", "May 2021"],
     "score": "A",
     "comment": "This is a database EE, so it can help those that are struggling with how to write one.",
     "link": "https://marxify.pages.dev/fWPeJxMemDBOgmRD.pdf"
   },
   {
-    "title": "",
+    "title": "To what extent were positive Indo-Soviet relations a result of US foreign policy during the Eisenhower and Kennedy (1953-1963) administrations?",
     "tags": ["History", "EE", "November 2019"],
     "rawMark": 28,
     "score": "A",
@@ -796,14 +789,14 @@
     "link": "https://marxify.pages.dev/8tSrvgP0Po7Gq5hz.pdf"
   },
   {
-    "title": "",
+    "title": "To what extent can the poems “Mrs. Lazarus” and “Eurydice”, from the 1999 anthology “The World´s Wife”, be considered explorations of resentment?",
     "tags": ["English A: Literature", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/374PuQpQboGkCle4.pdf"
   },
   {
-    "title": "Cat 1 EE: How does the protagonist of No-No boy negotiate an identity as a second-generation Japanese-American in a divided America?",
+    "title": "How does the protagonist of No-No boy negotiate an identity as a second-generation Japanese-American in a divided America?",
     "tags": ["English A: Language and Literature", "EE", "May 2021"],
     "rawMark": 28,
     "score": "A",
@@ -811,7 +804,7 @@
     "link": "https://marxify.pages.dev/9ZxVyeRXg3go9y1Z.pdf"
   },
   {
-    "title": "Comorbidity of autism and depression. Incredibly difficult topic with barely any research out there, but it's possible. Don't lose hope.",
+    "title": "To what extent does autism play a role in the onset of depression?",
     "tags": ["Psychology", "EE", "May 2021"],
     "rawMark": 27,
     "score": "A",
@@ -819,7 +812,7 @@
     "link": "https://marxify.pages.dev/vZ7fBZevWRDWAau2.pdf"
   },
   {
-    "title": "This EE is honestly bad lol",
+    "title": "How is an elliptic curve derived from an ellipse, and how can the properties of an elliptic curve be applied to cryptography?",
     "tags": ["Math AA", "EE", "May 2021"],
     "rawMark": 27,
     "score": "A",
@@ -827,7 +820,7 @@
     "link": "https://marxify.pages.dev/7ysOXfJjhftfyFA3.pdf"
   },
   {
-    "title": "I did this EE without having taken a single philosophy class in my academic career. I was still able to receive an A, don't lose hope.",
+    "title": "How does Immanuel Kant’s form of moral absolutism compare to Thomas Aquinas’ theory of Natural Law?",
     "tags": ["Philosophy", "EE", "May 2020"],
     "rawMark": 27,
     "score": "A",
@@ -835,7 +828,7 @@
     "link": "https://marxify.pages.dev/JfmaVodLigZgJzkF.pdf"
   },
   {
-    "title": "After having read a couple examiner reports from previous years, the topic of antibiotics is not very original. Use SciHub for free articles",
+    "title": "What is the effect of Origanum compactum, Cymbopogon winterianus, Eucalyptus radiata, Mentha spicata essential oils and hand soap on the rate of respiration and the growth of Saccharomyces cerevisiae (Baker's yeast) over a 48 hour period?",
     "tags": ["Biology", "EE", "May 2020"],
     "rawMark": 27,
     "score": "A",
@@ -843,7 +836,7 @@
     "link": "https://marxify.pages.dev/0BVmNyEcyVkGQojZ.pdf"
   },
   {
-    "title": "Already had extracurricular knowledge of organic chemistry, and was still a pain, would not recommend doing something similar",
+    "title": "Is it possible to synthesize Aripiprazole in an amateur chemistry laboratory at a lower cost than market price?",
     "tags": ["Chemistry", "EE", "May 2021"],
     "rawMark": 26,
     "score": "A",
@@ -851,7 +844,7 @@
     "link": "https://marxify.pages.dev/HtSz8e3L9oorpWFe.pdf"
   },
   {
-    "title": "Psychology Extended Essay",
+    "title": "How do action video games influence the cognitive processes of memory and attention?",
     "tags": ["Psychology", "EE", "May 2020"],
     "rawMark": 26,
     "score": "B",
@@ -859,7 +852,7 @@
     "link": "https://marxify.pages.dev/OvoLagwQBCVtqM4V.pdf"
   },
   {
-    "title": "",
+    "title": "To what extent have IKEA’s marketing strategies been effective to penetrate in the competitive Indian market for furniture?",
     "tags": ["Business and Management", "EE", "May 2021"],
     "rawMark": 25,
     "score": "B",
@@ -867,7 +860,7 @@
     "link": "https://marxify.pages.dev/JWcY5oeC8Y69P7wt.pdf"
   },
   {
-    "title": "EE Reflection at appended to the end.",
+    "title": "To what extent does a change in the angle of attack of an aero-foil shaped rear wing affect the magnitude of downforce produced",
     "tags": ["Physics", "EE", "May 2019"],
     "rawMark": 25,
     "score": "B",
@@ -875,21 +868,21 @@
     "link": "https://marxify.pages.dev/8qzTZdPgOamat1eR.pdf"
   },
   {
-    "title": "Investigation of the moment of inertia of hollow cylinders; 24 out of 25",
+    "title": "How does the diameter of a hole in a hollow cylinder affect the cylinder’s final velocity when rolling down a slope?",
     "tags": ["Physics", "IA", "HL", "May 2017"],
     "score": 7,
     "comment": "Investigation of the moment of inertia of hollow cylinders; 24 out of 25",
     "link": "https://marxify.pages.dev/jZUeZ77T0PVx1XPb.pdf"
   },
   {
-    "title": "",
+    "title": "How does the distance between the lens and a card display on a stereoscope viewer affect the screen disparity?",
     "tags": ["Physics", "IA", "HL", "May 2020"],
     "score": "B",
     "comment": "",
     "link": "https://marxify.pages.dev/1c3JpSiUFuG8z1Cw.pdf"
   },
   {
-    "title": "Section A: 4/4  Section B: 14/15  Section C: 6/6",
+    "title": "To what extent was the British decision to replace the Malayan Union in 1946 due to the threat of anti-colonial left-wing parties?",
     "tags": ["History", "IA", "SL", "May 2021"],
     "score": 7,
     "comment": "Section A: 4/4  Section B: 14/15  Section C: 6/6",
@@ -899,165 +892,165 @@
     "title": "Projectile motion range on an incline",
     "tags": ["Physics", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "Projectile motion range on an incline",
+    "comment": "",
     "link": "https://marxify.pages.dev/JJ3xLKguAgY9MH8b.pdf"
   },
   {
-    "title": "",
+    "title": "Efecto del pH inicial en la cinética de la degradación fotocatalítica del azul de metileno usando dióxido de titanio",
     "tags": ["Chemistry", "IA", "SL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/vySCh3xRWykhJpZT.pdf"
   },
   {
-    "title": "I sent my IA for an EUR after receiving 22/25, and it came back with a grade increase so I can only assume it was increased to 23-24/25.",
+    "title": "To what extent did ‘The Birth of a Nation’ contribute to the growth and ideological development of the Ku Klux Klan in the 1910s and 1920s?",
     "tags": ["History", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "I sent my IA for an EUR after receiving 22/25, and it came back with a grade increase so I can only assume it was increased to 23-24/25.",
     "link": "https://marxify.pages.dev/3m81qBVlBgEuKg98.pdf"
   },
   {
-    "title": "US Clean Air Act Evaluation. [UWC East Africa, '21]",
+    "title": "To what extent has the 1990 extensive amendments to the Clean Air Act been successful in reducing the levels of six principal air pollutants in the United States of America - CO, Pb, NO2, O3, PM10, and SO2?",
     "tags": ["ESS", "IA", "SL", "May 2021"],
     "score": 6,
     "comment": "US Clean Air Act Evaluation. [UWC East Africa, '21]",
     "link": "https://marxify.pages.dev/5LvZouPegXNQywDj.pdf"
   },
   {
-    "title": "My internal assessment on Artificial Intelligence, predicted 7 from our philosophy teacher",
+    "title": "Could a machine ever be considered a person?",
     "tags": ["Philosophy", "IA", "HL", "May 2022"],
     "score": 7,
     "comment": "My internal assessment on Artificial Intelligence, predicted 7 from our philosophy teacher",
     "link": "https://marxify.pages.dev/w5tsdXuETi6GHWUG.pdf"
   },
   {
-    "title": "I did all the unnecessary maths to spite my geo teacher who said \"just multiply each component with some arbitrary number\"",
+    "title": "How does water quality in the Silver Mine River change with distance downstream?",
     "tags": ["Geography", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "I did all the unnecessary maths to spite my geo teacher who said \"just multiply each component with some arbitrary number\"",
     "link": "https://marxify.pages.dev/VVsA09PptbIuZ5Kb.pdf"
   },
   {
-    "title": "English EE on Ishiguro's The Remains of the Day",
+    "title": "What makes Stevens’ character appealing to the reader in The Remains of the Day?",
     "tags": ["English B", "IA", "HL", "May 2020"],
     "score": "B",
     "comment": "English EE on Ishiguro's The Remains of the Day",
     "link": "https://marxify.pages.dev/UikdKeYOBCw1F2w4.pdf"
   },
   {
-    "title": "Chapter notes and EE: https://drive.google.com/drive/u/5/folders/16I5nI_TL4v_Lu9mP4pAZa8JDpHy83pD9",
+    "title": "A Parameterized Model and Analysis of the Aerodynamic Forces Encountered by Unguided Model Rockets during their Ascent Phase",
     "tags": ["Physics", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "Chapter notes and EE: https://drive.google.com/drive/u/5/folders/16I5nI_TL4v_Lu9mP4pAZa8JDpHy83pD9",
     "link": "https://marxify.pages.dev/JqVUcmyH71F4tCmB.pdf"
   },
   {
-    "title": "",
+    "title": "How salinity affects viscosity",
     "tags": ["Physics", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/HrmahagW4GDrDzvJ.pdf"
   },
   {
-    "title": "'To what extent did the Kronstadt Rebellion of 1921 influence the development of Soviet Russia as a totalitarian state?'",
+    "title": "To what extent did the Kronstadt Rebellion of 1921 influence the development of Soviet Russia as a totalitarian state?",
     "tags": ["History", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "'To what extent did the Kronstadt Rebellion of 1921 influence the development of Soviet Russia as a totalitarian state?'",
+    "comment": "",
     "link": "https://marxify.pages.dev/xx1rPGNylhcRZAK4.pdf"
   },
   {
-    "title": "",
+    "title": "Would Huawei's operation's plan of production of their own chips after the trade ban a good financial investment?",
     "tags": ["Business and Management", "IA", "SL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/gjkNKwxCMqvteD5H.pdf"
   },
   {
-    "title": "",
+    "title": "Kinetics of the hydrolysis of ethyl ethanoate",
     "tags": ["Chemistry", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/HihU5XADzAHT0Jmf.pdf"
   },
   {
-    "title": "this example has a low grade :))",
+    "title": "CS IA",
     "tags": ["Computer Science", "IA", "HL", "May 2021"],
     "score": 5,
     "comment": "this example has a low grade :))",
     "link": "https://marxify.pages.dev/6HM8CsK9dkVcnero.pdf"
   },
   {
-    "title": "Written Assignment",
+    "title": "What role do fate and free will play in Out Stealing Horses, and how is this conveyed?",
     "tags": ["English A: Literature", "IA", "SL", "November 2016"],
     "score": 7,
     "comment": "Written Assignment",
     "link": "https://marxify.pages.dev/CL4krzrUu46tCPzH.pdf"
   },
   {
-    "title": "",
+    "title": "To what extent was American economic expansion into Asian markets the primary cause for its annexation of Hawaii?",
     "tags": ["History", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/Rvkfj4D3Or67pYDX.pdf"
   },
   {
-    "title": "",
+    "title": "How will the use of microalgae extract (Chlorella zofingiensis) affect the height (cm) and fresh weight (gr) of leaf celery (Apium graveolens var. secalinum) when given (via Fertigation) at 3 different concentrations (0.5%, 0.1%, 0.01%) in comparison to positive and negative control?",
     "tags": ["Biology", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/f2EKQVzK41czTZ1f.pdf"
   },
   {
-    "title": "Q: The effect of wing surface area on the horizontal displacement of a paper aeroplane",
+    "title": "The effect of wing surface area on the horizontal displacement of a paper aeroplane",
     "tags": ["Physics", "IA", "HL", "May 2020"],
     "score": 7,
-    "comment": "Q: The effect of wing surface area on the horizontal displacement of a paper aeroplane",
+    "comment": "",
     "link": "https://marxify.pages.dev/3kS4SXE3KMbciw2p.pdf"
   },
   {
     "title": "How does varying the area of a copper oscillator affect the rate of change of amplitude due to magnetic damping?",
     "tags": ["Physics", "IA", "SL", "May 2020"],
     "score": 7,
-    "comment": "How does varying the area of a copper oscillator affect the rate of change of amplitude due to magnetic damping?",
+    "comment": "",
     "link": "https://marxify.pages.dev/fC6q3chm5kb8NXwR.pdf"
   },
   {
     "title": "The Unequal Effect of Commercial Gentrification on Micro-Businesses in the London Borough of Tower Hamlets",
     "tags": ["Geography", "IA", "SL", "May 2020"],
     "score": 7,
-    "comment": "The Unequal Effect of Commercial Gentrification on Micro-Businesses in the London Borough of Tower Hamlets",
+    "comment": "",
     "link": "https://marxify.pages.dev/5JJGjvy24mKB9dev.pdf"
   },
   {
     "title": "How does the soaking time & temperature of Kombu affect the iodine remaining using colorimetric determination?  Internal: 6 Moderated: 7",
     "tags": ["Biology", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "How does the soaking time & temperature of Kombu affect the iodine remaining using colorimetric determination?  Internal: 6 Moderated: 7",
+    "comment": "",
     "link": "https://marxify.pages.dev/dbuP6dsqvghTYOKM.pdf"
   },
   {
-    "title": "Option A - To what extent does the Glenderaterra Beck follow the predictions of the Bradshaw Model?",
+    "title": "To what extent does the Glenderaterra Beck follow the predictions of the Bradshaw Model?",
     "tags": ["Geography", "IA", "SL", "May 2020"],
     "score": 7,
-    "comment": "Option A - To what extent does the Glenderaterra Beck follow the predictions of the Bradshaw Model?",
+    "comment": "Option A",
     "link": "https://marxify.pages.dev/xkOerZfYOOVWp7vR.pdf"
   },
   {
-    "title": "Option G",
+    "title": "To what extent does Sariyer Merkez, Istanbul suffer from urban stress",
     "tags": ["Geography", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "Option G",
     "link": "https://marxify.pages.dev/QSyq2TeshrNUVYTT.pdf"
   },
   {
-    "title": "",
+    "title": "What is the effect of increasing the pH (11.238, 11.604, 11.756, 11.858, 11.917) of the aqueous brewing solution consisting of sodium carbonate (Na2CO3) of the tea on the yield of caffeine extracted (in mg) from a cup of black tea using dichloromethane solvent extraction, measured by iodometric back titration against a standard solution of sodium thiosulphate.",
     "tags": ["Chemistry", "IA", "SL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/fLxO5wBwhiXqNACh.pdf"
   },
   {
-    "title": "",
+    "title": "How do distractions on the auditory and visual systems affect the reaction time?",
     "tags": ["Biology", "EE", "May 2020"],
     "rawMark": 21,
     "score": "B",
@@ -1068,53 +1061,53 @@
     "title": "How does the quality of the physical environment vary as one move away from the centre of Tokyo, Ginza?",
     "tags": ["Geography", "IA", "HL", "May 2019"],
     "score": 7,
-    "comment": "How does the quality of the physical environment vary as one move away from the centre of Tokyo, Ginza?",
+    "comment": "",
     "link": "https://marxify.pages.dev/R8Rgu9CtcggjjRky.pdf"
   },
   {
-    "title": "",
+    "title": "An investigation into the theory of reconstructive memory",
     "tags": ["Psychology", "IA", "SL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/Nim39exJ09F4djXN.pdf"
   },
   {
-    "title": "Would u like proof of the 20/20?",
+    "title": "",
     "tags": ["English A: Language and Literature", "IA", "SL", "May 2020"],
     "score": 7,
     "comment": "Would u like proof of the 20/20?",
     "link": "https://marxify.pages.dev/TkZHiwyBNuBSZH3g.pdf"
   },
   {
-    "title": "",
+    "title": "Resonance of a Wire in a Magnetic Field with Varying Tension",
     "tags": ["Physics", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/eJhx25p1sKsEyYsD.pdf"
   },
   {
-    "title": "Text in blue are teacher comments submitted to the IB, I think this could help others",
+    "title": "How does the magnetic field strength placed on a magnet affect its levitation distance, while figuring out the n-value in the magnetic field equation?",
     "tags": ["Physics", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "Text in blue are teacher comments submitted to the IB, I think this could help others",
     "link": "https://marxify.pages.dev/KAuB008wt4JxVq8q.pdf"
   },
   {
-    "title": "Database IA. Investigating the correlation between percentage rate of deforestation and incidence of malaria",
+    "title": "Investigating the correlation between percentage rate of deforestation and incidence of malaria",
     "tags": ["Biology", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "Database IA. Investigating the correlation between percentage rate of deforestation and incidence of malaria",
+    "comment": "Database IA.",
     "link": "https://marxify.pages.dev/o2IDVnI7wiCjPbVX.pdf"
   },
   {
     "title": "Chinese BHL Written Assignment for《一把青》",
     "tags": ["Chinese B", "IA", "HL", "May 2019"],
     "score": 7,
-    "comment": "Chinese BHL Written Assignment for《一把青》",
+    "comment": "",
     "link": "https://marxify.pages.dev/9SMAqTli6gYuvnIA.pdf"
   },
   {
-    "title": "EE on Quantum Mechanics. What NOT to do.",
+    "title": "How does abstract mathematics apply to physical phenomena in the process of the development of Schrodinger’s equations?",
     "tags": ["Math AA", "EE", "May 2021"],
     "rawMark": 20,
     "score": "B",
@@ -1122,21 +1115,21 @@
     "link": "https://marxify.pages.dev/4oT5GcHPkrnnxcXr.pdf"
   },
   {
-    "title": "",
+    "title": "Investigation of hypochlorite content in solutions made by home-made disinfectant machine",
     "tags": ["Chemistry", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/yg0Qxh5BeN1ukDx4.pdf"
   },
   {
-    "title": "",
+    "title": "Estudio de la variación de ácido ascórbico en un zumo industrial.",
     "tags": ["Chemistry", "IA", "SL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/3bkQnjS0W03geE2G.pdf"
   },
   {
-    "title": "",
+    "title": "Mussolini and Matteotti: To what extent was the weakness of the opposition parties the most significant factor that led to the establishment of an authoritarian state in Italy after 1924?",
     "tags": ["History", "IA", "HL", "May 2017"],
     "score": 7,
     "comment": "",
@@ -1146,39 +1139,39 @@
     "title": "What is the effect of Nickel (II) Chloride concentration on the germination rate (%) of Triticum aestivum seeds?",
     "tags": ["Biology", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "What is the effect of Nickel (II) Chloride concentration on the germination rate (%) of Triticum aestivum seeds?",
+    "comment": "",
     "link": "https://marxify.pages.dev/axg4IQ0xWagbDHMR.pdf"
   },
   {
     "title": "Viscosity of Glycerol w.r.t temperature",
     "tags": ["Physics", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "Viscosity of Glycerol w.r.t temperature",
+    "comment": "",
     "link": "https://marxify.pages.dev/3NjrLqxuscMBL327.pdf"
   },
   {
-    "title": "This is Written Task 2 for the pre-M21 syllabus.",
+    "title": "How and why is a social group represented in a particular way?",
     "tags": ["English A: Language and Literature", "IA", "HL", "May 2019"],
     "score": 7,
     "comment": "This is Written Task 2 for the pre-M21 syllabus.",
     "link": "https://marxify.pages.dev/2jTRUEJzFwgYnwZM.pdf"
   },
   {
-    "title": "",
+    "title": "How does the addition of an 0.1 moldm-3 iron (III) chloride catalyst affect the activation energy of the decomposition of hydrogen peroxide?",
     "tags": ["Chemistry", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/OOzgzXzKMnCvdlfZ.pdf"
   },
   {
-    "title": "",
+    "title": "How does the amplitude of an oscillating pendulum vary with the number of oscillations that have taken place?",
     "tags": ["Physics", "IA", "HL", "May 2020"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/lP9oEIfrx2GJWXJw.pdf"
   },
   {
-    "title": "",
+    "title": "Should Fighting Fit Club and British International School Istanbul re-establish a concession as a growth strategy?",
     "tags": ["Business and Management", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
@@ -1188,60 +1181,60 @@
     "title": "Exploring Fourier Series by Drawing Figures with Circles",
     "tags": ["Math AA", "IA", "HL", "May 2020"],
     "score": 7,
-    "comment": "Exploring Fourier Series by Drawing Figures with Circles",
+    "comment": "",
     "link": "https://marxify.pages.dev/2SyPx094JfmxwKa1.pdf"
   },
   {
-    "title": "",
+    "title": "Should Kreme De la Kreme switch to online sales completely, shutting down on-counter sales to improve cash flow and increase profitability?",
     "tags": ["Business and Management", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/fK9qZXLD6RCUFc1A.pdf"
   },
   {
-    "title": "This was written before covid-19, some data might not be relevant now",
+    "title": "Will Tesla be able to increase its market share in the Chinese electric car market by opening a Gigafactory in China?",
     "tags": ["Business and Management", "IA", "SL", "May 2020"],
     "score": 6,
     "comment": "This was written before covid-19, some data might not be relevant now",
     "link": "https://marxify.pages.dev/9u3NdywxoPlJRFkB.pdf"
   },
   {
-    "title": "",
+    "title": "How can Visume reduce its employee attrition rate?",
     "tags": ["Business and Management", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/xmqWnV2WPj5VBzis.pdf"
   },
   {
-    "title": "",
+    "title": "Investigating the Enthalpy of Different Organic Fuels",
     "tags": ["Chemistry", "IA", "HL", "May 2020"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/rA5rNkGskY2OpglN.pdf"
   },
   {
-    "title": "I got a 9/10",
+    "title": "Within areas of knowledge, how can we differentiate between change and progress?",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "A",
     "comment": "I got a 9/10",
     "link": "https://marxify.pages.dev/fSoN5qMmZWgxgn3V.pdf"
   },
   {
-    "title": "this is my Written Task 2 for HL on Part 1: Language and Cultural Context.",
+    "title": " How and why is a social group been portrayed a certain way?",
     "tags": ["English A: Language and Literature", "IA", "HL", "May 2020"],
     "score": 6,
     "comment": "this is my Written Task 2 for HL on Part 1: Language and Cultural Context.",
     "link": "https://marxify.pages.dev/jXlBTuB5wp5KBDRR.pdf"
   },
   {
-    "title": "",
+    "title": "An analytic solution to xkcd comic 135",
     "tags": ["Math AA", "IA", "HL", "November 2016"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/6jvDzQbdmBzKpwM1.pdf"
   },
   {
-    "title": "16->19 after EUR",
+    "title": "Mathematical investigation of an egg",
     "tags": ["Math AA", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "16->19 after EUR",
@@ -1251,39 +1244,39 @@
     "title": "This is Written Task 1 for the pre-M21 syllabus.",
     "tags": ["English A: Language and Literature", "IA", "HL", "May 2019"],
     "score": 7,
-    "comment": "This is Written Task 1 for the pre-M21 syllabus.",
+    "comment": "",
     "link": "https://marxify.pages.dev/IkSGQ0RgqvXzum45.pdf"
   },
   {
-    "title": "This is the new assessment component for the HL English Lang and Lit course - HL Essay",
+    "title": "How does Nike help break the stereotypes of racial and gender prejudice by representing the success stories of athletes in its Dream Crazy Advertisement campaign while promoting its brand image?",
     "tags": ["English A: Language and Literature", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "This is the new assessment component for the HL English Lang and Lit course - HL Essay",
     "link": "https://marxify.pages.dev/jmOC1iYJxg3nhwzh.pdf"
   },
   {
-    "title": "What can be accomplished in 72 hours and with no feedback from a teacher... thankfully the 7 came through for exams.",
+    "title": "Does the degree of environmental impact differ with distance from the CBD, and type of CBD, in Singapore?",
     "tags": ["Geography", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "What can be accomplished in 72 hours and with no feedback from a teacher... thankfully the 7 came through for exams.",
     "link": "https://marxify.pages.dev/q4xiMRUzs8IQG3VI.pdf"
   },
   {
-    "title": "",
+    "title": "Investigating the behavior of a function modeling the depth of a towfish",
     "tags": ["Math AA", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/uKRa3LH15IKUdk5n.pdf"
   },
   {
-    "title": "I censored the name of the person I interviewed for privacy reasons.",
+    "title": "Why is the enforcement of laws protecting the LGBT minority in Brazil so problematic?",
     "tags": ["Global Politics", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "I censored the name of the person I interviewed for privacy reasons.",
     "link": "https://marxify.pages.dev/o00HOB7A1nOwDdz4.pdf"
   },
   {
-    "title": "",
+    "title": "Investigating The Coastline Paradox In Relation To The Moroccan Territory",
     "tags": ["Math AA", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
@@ -1293,11 +1286,11 @@
     "title": "PEA",
     "tags": ["Global Politics", "IA", "SL", "May 2021"],
     "score": 7,
-    "comment": "PEA",
+    "comment": "",
     "link": "https://marxify.pages.dev/nBypsjWyf4cZWA1W.pdf"
   },
   {
-    "title": "",
+    "title": "To what extent did domestic Japanese issues lead to its expansionism into Manchuria during 1920-1930?",
     "tags": ["History", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "",
@@ -1307,172 +1300,165 @@
     "title": "Aplicaciones e interpretaciones NM/SL. Diagramas de Voronoi. paper 2, man, paper 2 just destroyed me",
     "tags": ["Math AA", "IA", "SL", "November 2021"],
     "score": 5,
-    "comment": "Aplicaciones e interpretaciones NM/SL. Diagramas de Voronoi. paper 2, man, paper 2 just destroyed me",
+    "comment": "",
     "link": "https://marxify.pages.dev/O5MlDempdhGGUtkr.pdf"
   },
   {
-    "title": "",
+    "title": "To Love Them Too",
     "tags": ["English A: Literature", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/EmlZqp5shE8Vbruq.pdf"
   },
   {
-    "title": "Proposing a new probabilistic approach in modelling epidemics; 18 out of 20",
+    "title": "Proposing a new probabilistic approach in modelling epidemics",
     "tags": ["Math AA", "IA", "HL", "May 2017"],
     "score": 7,
-    "comment": "Proposing a new probabilistic approach in modelling epidemics; 18 out of 20",
+    "comment": "18 out of 20",
     "link": "https://marxify.pages.dev/TzoKIgKR386jeyuR.pdf"
   },
   {
-    "title": "Math IA",
+    "title": "How many ways can a number of telephones be connected if a telephone can’t connect to more than one other?",
     "tags": ["Math AA", "IA", "HL", "May 2018"],
     "score": 7,
-    "comment": "Math IA",
+    "comment": "",
     "link": "https://marxify.pages.dev/INu6ipizvRpfgvBI.pdf"
   },
   {
-    "title": "",
+    "title": "Factors affecting the enthalpy of combustion values of alcohols",
     "tags": ["Chemistry", "IA", "SL", "May 2021"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/Y4vIDdg7778rx7fO.pdf"
   },
   {
-    "title": "The subject was mathematics: analysis and approaches. I chose a pretty simple topic, good luck!",
+    "title": "Modelo matemático para estimar la población del matorralero cabecipálido (Atlapetes pallidiceps) en Ecuador",
     "tags": ["Math AA", "IA", "SL", "May 2021"],
     "score": 7,
     "comment": "The subject was mathematics: analysis and approaches. I chose a pretty simple topic, good luck!",
     "link": "https://marxify.pages.dev/DqqnMkvTODwSi3nT.pdf"
   },
   {
-    "title": "The raw marks are my total raw marks for the subject, because my school didn't give us access to component-wise breakdowns.",
+    "title": "To what extent does the motif of blood allow Ismail Kadare to explore the inescapability of violence under the dictates of the Kanun in Broken April?",
     "tags": ["English A: Literature", "IA", "SL", "May 2020"],
     "score": 7,
     "comment": "The raw marks are my total raw marks for the subject, because my school didn't give us access to component-wise breakdowns.",
     "link": "https://marxify.pages.dev/FyPStWMBmGpz9mUt.pdf"
   },
   {
-    "title": "IA on Volume of Revolution. Moderated score was also 18.",
+    "title": "Finding volume",
     "tags": ["Math AA", "IA", "SL", "May 2019"],
     "score": 7,
     "comment": "IA on Volume of Revolution. Moderated score was also 18.",
     "link": "https://marxify.pages.dev/uwHSxRQY5IvK0u4D.pdf"
   },
   {
-    "title": "It contains extracurricular stuff, would not recommend this kind of topic",
+    "title": "Investigation of the motion of double pendulums using differential equations",
     "tags": ["Math AA", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "It contains extracurricular stuff, would not recommend this kind of topic",
     "link": "https://marxify.pages.dev/Hbdz2gzugbb7Ongw.pdf"
   },
   {
-    "title": "",
+    "title": "Teoremas de Pappus y Guldin",
     "tags": ["Math AA", "IA", "SL", "November 2015"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/wCHgHLBnDWqKvDoG.pdf"
   },
   {
-    "title": "MAA, was told it would get a 5 and i should drop the course, but haha, here I am with a 7.",
+    "title": "Book page length and average reader ratings.",
     "tags": ["Math AA", "IA", "SL", "May 2021"],
     "score": 7,
     "comment": "MAA, was told it would get a 5 and i should drop the course, but haha, here I am with a 7.",
     "link": "https://marxify.pages.dev/SJN1qrmrd5U9z7NI.pdf"
   },
   {
-    "title": "Topic: Approximating sin(x) in algebraic terms | Don't know my raw marks for the IA, but my total raw marks were 83/100.",
+    "title": "Approximating sin(x) in algebraic terms",
     "tags": ["Math AA", "IA", "SL", "May 2020"],
     "score": 7,
-    "comment": "Topic: Approximating sin(x) in algebraic terms | Don't know my raw marks for the IA, but my total raw marks were 83/100.",
+    "comment": "Don't know my raw marks for the IA, but my total raw marks were 83/100.",
     "link": "https://marxify.pages.dev/uClMOxE4IXfzX1vx.pdf"
   },
   {
     "title": "A permutations exploration of the 15-puzzle",
     "tags": ["Math AA", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "A permutations exploration of the 15-puzzle",
+    "comment": "",
     "link": "https://marxify.pages.dev/VRK57n2hZhnse7iX.pdf"
   },
   {
-    "title": "",
+    "title": "How does pH of a water sample affect its biological oxygen demand over a course of 5 days, as found using the Winkler method?",
     "tags": ["Chemistry", "IA", "SL", "May 2021"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/YWi9FuX5kr8ujKEr.pdf"
   },
   {
-    "title": "",
+    "title": "Areas of knowledge are most useful in combination with each other.",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "B",
     "comment": "",
     "link": "https://marxify.pages.dev/qaOk2I6BLakuwPss.pdf"
   },
   {
-    "title": "Maximising the Spinning Time of an Inception-Styled Top. Physics and calculus heavy paper typed up in 2 days so language isn't the best.",
+    "title": "Maximising the Spinning Time of an Inception-Styled Top.",
     "tags": ["Math AA", "IA", "HL", "May 2021"],
     "score": 7,
-    "comment": "Maximising the Spinning Time of an Inception-Styled Top. Physics and calculus heavy paper typed up in 2 days so language isn't the best.",
+    "comment": "Physics and calculus heavy paper typed up in 2 days so language isn't the best.",
     "link": "https://marxify.pages.dev/6fXJObdFVGOuBxZp.pdf"
   },
   {
-    "title": "was told this would get a 5 if I was lucky, but a 7 it was...",
-    "tags": ["Math AA", "IA", "SL", "May 2021"],
-    "score": 7,
-    "comment": "was told this would get a 5 if I was lucky, but a 7 it was...",
-    "link": "https://marxify.pages.dev/nVa1UzLheLYn1hVN.pdf"
-  },
-  {
-    "title": "exemplar used complicated statistical test requiring a program (don't do unless confident). analysis was shallow, couldve easily been a 7",
+    "title": "How do varying increments of lauric acid affect the growth of the Wisconsin Fast Plant’s roots and shoots (brassica rapa)?",
     "tags": ["Biology", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "exemplar used complicated statistical test requiring a program (don't do unless confident). analysis was shallow, couldve easily been a 7",
     "link": "https://marxify.pages.dev/jqeZkGx0EglqCQ4V.pdf"
   },
   {
-    "title": "Temp + Cell potential/Eqm. Constant - internal 18/external 18, major flaw in theory of IA not picked up by examiner or teachers it seems..",
+    "title": "How does increasing temperature (298.15±0.50K, 303.15±0.50K, 308.15±0.50K, 313.15±0.50K, 318.15±0.50K) impact the cell potential (Ecell) (V), and hence equilibrium constant (𝑲𝒄), in the iron- zinc galvanic cell?",
     "tags": ["Chemistry", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "Temp + Cell potential/Eqm. Constant - internal 18/external 18, major flaw in theory of IA not picked up by examiner or teachers it seems..",
     "link": "https://marxify.pages.dev/wX9nywnRyBVpyNWB.pdf"
   },
   {
-    "title": "",
+    "title": "The Nutritional Transition: Protein per Capita and GDP per Capita",
     "tags": ["Math AI", "IA", "SL", "May 2019"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/uOtI0V5ghN2yLAi3.pdf"
   },
   {
-    "title": "So much about the irl plans that this ia established :(",
+    "title": "Optimisation des coûts de transport d’un voyage en Europe en utilisant la théorie des graphes",
     "tags": ["Math AA", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "So much about the irl plans that this ia established :(",
     "link": "https://marxify.pages.dev/0p2YLDyuqtK97CRX.pdf"
   },
   {
-    "title": "I'm not completely sure about the grading, but I do know that my essay scored higher than the presentation and I got a B for it so...",
+    "title": "Labels are a necessity in the organization of knowledge, but they also constrain our understanding.",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "B",
     "comment": "I'm not completely sure about the grading, but I do know that my essay scored higher than the presentation and I got a B for it so...",
     "link": "https://marxify.pages.dev/seoigauEs2DLvYzc.pdf"
   },
   {
-    "title": "Man, I've been there where you are at. Trust me, you will get through! [UWC East Africa, '21]",
+    "title": "To what extent do the Life Expectancy rates of developing and developed countries depend on their respective Healthcare Expenditure Per Capita?",
     "tags": ["Math AA", "IA", "SL", "May 2021"],
     "score": 6,
     "comment": "Man, I've been there where you are at. Trust me, you will get through! [UWC East Africa, '21]",
     "link": "https://marxify.pages.dev/RfFNdgv5GGzbOiS5.pdf"
   },
   {
-    "title": "Database IA. Not sure what my exact marks are. This was submitted unfinished so the analysis is incomplete",
+    "title": "Investigating the effect of structural isomerism (positional, chain and metamerism) on the boiling points of aliphatic alcohols and ethers",
     "tags": ["Chemistry", "IA", "HL", "May 2021"],
     "score": 5,
     "comment": "Database IA. Not sure what my exact marks are. This was submitted unfinished so the analysis is incomplete",
     "link": "https://marxify.pages.dev/a8QAPHgKbVX7jZsc.pdf"
   },
   {
-    "title": "",
+    "title": "How does age correlate with insurance pricing?",
     "tags": ["Math AA", "EE", "May 2020"],
     "rawMark": 17,
     "score": "C",
@@ -1480,21 +1466,21 @@
     "link": "https://marxify.pages.dev/JhykpDe1burOYO7N.pdf"
   },
   {
-    "title": "",
+    "title": "How the lubricant layer's temperature4 5 between two aluminum surfaces affects the change in dynamic friction coefficient?",
     "tags": ["Physics", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/JHIe4BqHyawhzV8F.pdf"
   },
   {
-    "title": "",
+    "title": "Generalisations of Recursive Sequences Using Diagonalizations of 2 x 2 Matrices",
     "tags": ["Math AA", "IA", "HL", "May 2020"],
     "score": 7,
     "comment": "",
     "link": "https://marxify.pages.dev/ebR3LrvPDXVOrUsg.pdf"
   },
   {
-    "title": "",
+    "title": "To what extent does the probabilistic solution of the Buffon problem and it’s variations give insight into approximating π?",
     "tags": ["Math AA", "IA", "HL", "May 2021"],
     "score": 7,
     "comment": "",
@@ -1504,68 +1490,68 @@
     "title": "Emulating Computer Calculations in Order to Manipulate a Cube’s On-Screen Appearance",
     "tags": ["Math AA", "IA", "HL", "May 2020"],
     "score": 7,
-    "comment": "Emulating Computer Calculations in Order to Manipulate a Cube’s On-Screen Appearance",
+    "comment": "",
     "link": "https://marxify.pages.dev/KupcNzdWlKMboMJM.pdf"
   },
   {
-    "title": "",
+    "title": "Application of the shortest path problem",
     "tags": ["Math AA", "IA", "HL", "May 2021"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/OqE3NFfkr05gqxAd.pdf"
   },
   {
-    "title": "Math AA",
+    "title": "Would the function for the minimal surface area of a revolution be a good function to model a soap film?",
     "tags": ["Math AA", "IA", "HL", "May 2021"],
     "score": 6,
-    "comment": "Math AA",
+    "comment": "",
     "link": "https://marxify.pages.dev/sdYkU1ovgvQz8NpA.pdf"
   },
   {
-    "title": "I was one mark away from a B, however the marks are for my presentation and essay combined!",
+    "title": "Knowledge gained through direct experience is powerful but problematic.” To what extent do you agree with this statement",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "C",
     "comment": "I was one mark away from a B, however the marks are for my presentation and essay combined!",
     "link": "https://marxify.pages.dev/DSzRAM1PANHiMgLt.pdf"
   },
   {
-    "title": "",
+    "title": "Proving Fermat's Little Theorem",
     "tags": ["Math AA", "IA", "HL", "May 2020"],
     "score": 6,
     "comment": "",
     "link": "https://marxify.pages.dev/DURQzgCYVOHZ14jv.pdf"
   },
   {
-    "title": "This is my TOK presentation. Idk the individual marks but for the essay and presentation i got a C, i missed B by just a mark :(",
+    "title": "The Influence of Biases on our perspectives",
     "tags": ["TOK", "Presentation", "May 2021"],
     "score": "C",
     "comment": "This is my TOK presentation. Idk the individual marks but for the essay and presentation i got a C, i missed B by just a mark :(",
     "link": "https://marxify.pages.dev/GZKbjsAdifRAtY8L.pdf"
   },
   {
-    "title": "hahaha unfinished work",
+    "title": "Motion in a Viscous Medium",
     "tags": ["Physics", "IA", "SL", "May 2021"],
     "score": 4,
     "comment": "hahaha unfinished work",
     "link": "https://marxify.pages.dev/EAUb4PmEqYMqCqK6.pdf"
   },
   {
-    "title": "Evaluation of Blockchain as a replacement for Client-Server Model for Online Game Asset Management (forgot to add primary research)",
+    "title": "Evaluation of Blockchain as a replacement for Client-Server Model for Online Game Asset Management",
     "tags": ["Computer Science", "EE", "May 2021"],
     "rawMark": 12,
     "score": "D",
-    "comment": "Evaluation of Blockchain as a replacement for Client-Server Model for Online Game Asset Management (forgot to add primary research)",
+    "comment": "(forgot to add primary research)",
     "link": "https://marxify.pages.dev/rWkUisCDnS7u7bH1.pdf"
   },
   {
-    "title": "",
+    "title": "The production of knowledge is always a collaborative task and never solely a product of the individual.",
     "tags": ["TOK", "Essay", "May 2019"],
     "score": "A",
     "comment": "",
     "link": "https://marxify.pages.dev/0Qkey6TqFqrYStWI.pdf"
   },
   {
-    "title": "",
+    "title": "Labels are a necessity in the organization of knowledge, but they also constrain our understanding",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "A",
     "comment": "",
@@ -1575,46 +1561,46 @@
     "title": "\"Title 5: Multiplicity of Theories\"",
     "tags": ["TOK", "Essay", "May 2020"],
     "score": "A",
-    "comment": "\"Title 5: Multiplicity of Theories\"",
+    "comment": "",
     "link": "https://marxify.pages.dev/nj9cKw6XYSFVasxx.pdf"
   },
   {
-    "title": "“Areas of knowledge are most useful in combination with each other.” Discuss this claim with reference to two areas of knowledge.",
+    "title": "Areas of knowledge are most useful in combination with each other.",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "A",
-    "comment": "“Areas of knowledge are most useful in combination with each other.” Discuss this claim with reference to two areas of knowledge.",
+    "comment": "",
     "link": "https://marxify.pages.dev/plGTHYsK2JYUBD8u.pdf"
   },
   {
-    "title": "on PT 6 - Multiplicity of Theories to understand the world",
+    "title": "PT 6 - Multiplicity of Theories to understand the world",
     "tags": ["TOK", "Essay", "May 2020"],
     "score": "A",
-    "comment": "on PT 6 - Multiplicity of Theories to understand the world",
+    "comment": "",
     "link": "https://marxify.pages.dev/uI6KR4QdtQjVWUFR.pdf"
   },
   {
-    "title": "",
+    "title": "The pursuit of knowledge is not merely about finding truths; it is about finding significant truths",
     "tags": ["TOK", "Essay", "November 2019"],
     "score": 4,
     "comment": "",
     "link": "https://marxify.pages.dev/fsm6dzUweVIrpRHl.pdf"
   },
   {
-    "title": "The essay is either a 10 or a 9 but I believe it would have been marked as a 9",
+    "title": "Too much of our knowledge revolves around ourselves, as if we are the most important thing in the universe” (adapted from Carlo Rovelli).",
     "tags": ["TOK", "Essay", "November 2020"],
     "score": "A",
     "comment": "The essay is either a 10 or a 9 but I believe it would have been marked as a 9",
     "link": "https://marxify.pages.dev/DXA7JeZmA0ca8Nxl.pdf"
   },
   {
-    "title": "",
+    "title": "Labels are a necessity in the organization of knowledge, but they also constrain our understanding.",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "A",
     "comment": "",
     "link": "https://marxify.pages.dev/1zGecFpOrHxaJ73D.pdf"
   },
   {
-    "title": "",
+    "title": "Present knowledge is wholly dependent on past knowledge",
     "tags": ["TOK", "Essay", "May 2020"],
     "score": "A",
     "comment": "",
@@ -1624,63 +1610,63 @@
     "title": "Title 3: Do good explanations have to be true?",
     "tags": ["TOK", "Essay", "May 2019"],
     "score": "A",
-    "comment": "Title 3: Do good explanations have to be true?",
+    "comment": "",
     "link": "https://marxify.pages.dev/8pTueQzoZxz8uIdp.pdf"
   },
   {
-    "title": "TOK Essay Title 4",
+    "title": "Title 4: The role of analogy is to aid understanding rather than to provide justification.",
     "tags": ["TOK", "Essay", "May 2020"],
     "score": "A",
-    "comment": "TOK Essay Title 4",
+    "comment": "",
     "link": "https://marxify.pages.dev/qqXIpz14zxxYKjfv.pdf"
   },
   {
     "title": "“El conocimiento adquirido mediante la experiencia directa es potente pero problemático” 9 o 10, pero creo que 9",
     "tags": ["TOK", "Essay", "November 2021"],
     "score": "A",
-    "comment": "“El conocimiento adquirido mediante la experiencia directa es potente pero problemático” 9 o 10, pero creo que 9",
+    "comment": "",
     "link": "https://marxify.pages.dev/DSbQA2oBmXWCsqeS.pdf"
   },
   {
-    "title": "",
+    "title": "Error is as valuable as accuracy in the production of knowledge.",
     "tags": ["TOK", "Essay", "November 2016"],
     "score": "A",
     "comment": "",
     "link": "https://marxify.pages.dev/TnXcxd4TSxmP7lyN.pdf"
   },
   {
-    "title": "TOK Exhibition exemplar",
+    "title": "Are some things unknowable?",
     "tags": ["TOK", "Exhibition", "May 2022"],
     "score": "A",
-    "comment": "TOK Exhibition exemplar",
+    "comment": "",
     "link": "https://marxify.pages.dev/9VhfshgmS05a9QWW.pdf"
   },
   {
     "title": "Q6 “Avoiding bias seems a commendable goal, but this fails to recognise the positive role that bias can play in the pursuit of knowledge.”",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "A",
-    "comment": "Q6 “Avoiding bias seems a commendable goal, but this fails to recognise the positive role that bias can play in the pursuit of knowledge.”",
+    "comment": "",
     "link": "https://marxify.pages.dev/Gq3wv1sVCIfcwstp.pdf"
   },
   {
     "title": "Q6: “Avoiding bias seems a commendable goal, but this fails to recognize the positive role that bias can play in the pursuit of knowledge.”",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "A",
-    "comment": "Q6: “Avoiding bias seems a commendable goal, but this fails to recognize the positive role that bias can play in the pursuit of knowledge.”",
+    "comment": "",
     "link": "https://marxify.pages.dev/X8l0N5V77MBJaaSe.pdf"
   },
   {
-    "title": "Essay Title 6 - accuracy vs simplicity",
+    "title": "Title 6 - accuracy vs simplicity",
     "tags": ["TOK", "Essay", "May 2016"],
     "score": "B",
-    "comment": "Essay Title 6 - accuracy vs simplicity",
+    "comment": "",
     "link": "https://marxify.pages.dev/StiEkMp2wFhlsTLk.pdf"
   },
   {
-    "title": "Q1 M21: “Accepting knowledge claims always involves an element of trust,” Discuss this claim with reference to two areas of knowledge.",
+    "title": "Q1: “Accepting knowledge claims always involves an element of trust”.",
     "tags": ["TOK", "Essay", "May 2021"],
     "score": "A",
-    "comment": "Q1 M21: “Accepting knowledge claims always involves an element of trust,” Discuss this claim with reference to two areas of knowledge.",
+    "comment": "",
     "link": "https://marxify.pages.dev/Bi8y8zslgckNLJR8.pdf"
   }
 ]

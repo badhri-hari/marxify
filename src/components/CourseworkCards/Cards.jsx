@@ -14,23 +14,23 @@ export default function Cards({
   const commentIconRef = useRef(null);
   const ibPopupRef = useRef(null);
   const ibIconRef = useRef(null);
-  const clastifyPopupRef = useRef(null);
-  const clastifyIconRef = useRef(null);
+  const crapifyPopupRef = useRef(null);
+  const crapifyIconRef = useRef(null);
 
   const [alignLeft, setAlignLeft] = useState(false);
   const [showBelow, setShowBelow] = useState(false);
   const [ibAlignLeft, setIbAlignLeft] = useState(false);
   const [ibShowBelow, setIbShowBelow] = useState(false);
-  const [clastifyAlignLeft, setClastifyAlignLeft] = useState(false);
-  const [clastifyShowBelow, setClastifyShowBelow] = useState(false);
+  const [crapifyAlignLeft, setCrapifyAlignLeft] = useState(false);
+  const [crapifyShowBelow, setCrapifyShowBelow] = useState(false);
   const [ibHover, setIbHover] = useState(false);
-  const [clastifyHover, setClastifyHover] = useState(false);
+  const [crapifyHover, setCrapifyHover] = useState(false);
   const [commentHover, setCommentHover] = useState(false);
 
   const hasIBTag = tags.some((tag) => tag.trim() === "IB Exemplar");
-  const hasClastifyTag = tags.some((tag) => tag.trim() === "Clastify");
+  const hasCrapifyTag = tags.some((tag) => tag.trim() === "Crapify");
 
-const updateCommentPosition = () => {
+  const updateCommentPosition = () => {
     if (!commentPopupRef.current || !commentIconRef.current) return;
 
     const popupRect = commentPopupRef.current.getBoundingClientRect();
@@ -66,20 +66,20 @@ const updateCommentPosition = () => {
     );
   };
 
-  const updateClastifyPosition = () => {
-    if (!clastifyPopupRef.current || !clastifyIconRef.current) return;
+  const updateCrapifyPosition = () => {
+    if (!crapifyPopupRef.current || !crapifyIconRef.current) return;
 
-    const popupRect = clastifyPopupRef.current.getBoundingClientRect();
-    const iconRect = clastifyIconRef.current.getBoundingClientRect();
+    const popupRect = crapifyPopupRef.current.getBoundingClientRect();
+    const iconRect = crapifyIconRef.current.getBoundingClientRect();
 
     const spaceRight = window.innerWidth - iconRect.right;
     const popupWidth = popupRect.width || 250;
-    setClastifyAlignLeft(spaceRight < popupWidth + 20);
+    setCrapifyAlignLeft(spaceRight < popupWidth + 20);
 
     const popupHeight = popupRect.height || 100;
     const spaceAbove = iconRect.top;
     const spaceBelow = window.innerHeight - iconRect.bottom;
-    setClastifyShowBelow(
+    setCrapifyShowBelow(
       spaceAbove < popupHeight + 20 && spaceBelow >= popupHeight + 20
     );
   };
@@ -89,7 +89,7 @@ const updateCommentPosition = () => {
       requestAnimationFrame(() => {
         updateCommentPosition();
         updateIBPosition();
-        updateClastifyPosition();
+        updateCrapifyPosition();
       });
     };
 
@@ -150,36 +150,36 @@ const updateCommentPosition = () => {
                   visibility: ibHover ? "visible" : "hidden",
                   pointerEvents: ibHover ? "auto" : "none",
                 }}
-                aria-label='This is a graded exemplar "provided" by the IB.'
+                aria-label="This is a graded exemplar provided by the IB."
               >
-                This is a graded exemplar "provided" by the IB.
+                This is a graded exemplar provided by the IB.
               </div>
             </div>
           )}
 
-          {hasClastifyTag && (
+          {hasCrapifyTag && (
             <div
               onMouseEnter={() => {
-                setClastifyHover(true);
-                updateClastifyPosition();
+                setCrapifyHover(true);
+                updateCrapifyPosition();
               }}
-              onMouseLeave={() => setClastifyHover(false)}
+              onMouseLeave={() => setCrapifyHover(false)}
               style={{ position: "relative", display: "inline-block" }}
             >
               <img
-                src="/clastify.png"
-                alt="Clastify Logo"
-                className="icon clastify-icon"
-                ref={clastifyIconRef}
+                src="/crapify.png"
+                alt="Crapify Logo"
+                className="icon crapify-icon"
+                ref={crapifyIconRef}
               />
               <div
-                ref={clastifyPopupRef}
-                className={`comment-popup clastify-popup ${
-                  clastifyAlignLeft ? "left" : "right"
-                } ${clastifyShowBelow ? "below" : "above"}`}
+                ref={crapifyPopupRef}
+                className={`comment-popup crapify-popup ${
+                  crapifyAlignLeft ? "left" : "right"
+                } ${crapifyShowBelow ? "below" : "above"}`}
                 style={{
-                  visibility: clastifyHover ? "visible" : "hidden",
-                  pointerEvents: clastifyHover ? "auto" : "none",
+                  visibility: crapifyHover ? "visible" : "hidden",
+                  pointerEvents: crapifyHover ? "auto" : "none",
                 }}
                 aria-label="Liberated from Crapify."
               >
@@ -197,18 +197,15 @@ const updateCommentPosition = () => {
               onMouseLeave={() => setCommentHover(false)}
               style={{ position: "relative", display: "inline-block" }}
             >
-             <span ref={commentIconRef} style={{ display: "inline-block" }}>
-  <FaRegComment
-    className="icon"
-    aria-label={comment}
-  />
-</span>
+              <span ref={commentIconRef} style={{ display: "inline-block" }}>
+                <FaRegComment className="icon" aria-label={comment} />
+              </span>
               <div
-              aria-hidden
+                aria-hidden
                 ref={commentPopupRef}
-                className={`comment-popup ${
-                  alignLeft ? "left" : "right"
-                } ${showBelow ? "below" : "above"}`}
+                className={`comment-popup ${alignLeft ? "left" : "right"} ${
+                  showBelow ? "below" : "above"
+                }`}
                 style={{
                   visibility: commentHover ? "visible" : "hidden",
                   pointerEvents: commentHover ? "auto" : "none",
@@ -233,7 +230,7 @@ const updateCommentPosition = () => {
         <div className="card-tags" aria-hidden>
           {tags
             .filter(
-              (tag) => tag.trim() !== "IB Exemplar" && tag.trim() !== "Clastify"
+              (tag) => tag.trim() !== "IB Exemplar" && tag.trim() !== "Crapify"
             )
             .map((tag, idx) => (
               <span key={idx} className="tag">

@@ -3,9 +3,9 @@ export default function getCustomSelectStyles(isDark) {
     control: (base, state) => ({
       ...base,
       backgroundColor: isDark ? "#242526" : "#f5f5f5",
-      borderColor: state.isFocused ? "#f14668" : isDark ? "#444" : "#ccc",
+      borderColor: state.isFocused ? "#f14668" : (isDark ? "#444" : (state.isDisabled ? "#bdbdbdff" : "#919191ff")),
       boxShadow: state.isFocused ? "0 0 0 1px #f14668" : "none",
-      opacity: state.isDisabled ? (isDark ? 0.7 : 0.8) : 1,
+      opacity: state.isDisabled ? 0.7 : 1,
       pointerEvents: state.isDisabled ? "none" : "auto",
       cursor: state.isDisabled ? "not-allowed" : "pointer",
       "&:hover": {

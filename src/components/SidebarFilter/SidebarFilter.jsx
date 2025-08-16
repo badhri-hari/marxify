@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from "preact/hooks";
+import { useEffect, useState, useMemo, useRef } from "preact/hooks";
 import Select from "react-select";
 
 import "./SidebarFilter.css";
@@ -132,6 +132,110 @@ export default function Sidebar({
     selectedGrades.length > 0 ||
     selectedSessionMonths.length > 0 ||
     selectedSessionYears.length > 0;
+
+  const pendingInitialSubjectsRef = useRef(null);
+  const initializedRef = useRef(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (initializedRef.current) return;
+
+    const params = new URLSearchParams(window.location.search);
+
+    const cwParam = params.get("cw") || "";
+    if (cwParam) setSelectedCoursework(cwParam);
+
+    const levelsParam = params.get("levels");
+    if (levelsParam) {
+      const levels = levelsParam.split(",").filter(Boolean);
+      setSelectedLevels(levels);
+    }
+
+    const gradesParam = params.get("grades");
+    if (gradesParam) {
+      const grades = gradesParam.split(",").filter(Boolean);
+      setSelectedGrades(grades);
+    }
+
+    const monthsParam = params.get("months");
+    if (monthsParam) {
+      const months = monthsParam.split(",").filter(Boolean);
+      setSelectedSessionMonths(months);
+    }
+
+    const yearsParam = params.get("years");
+    if (yearsParam) {
+      const years = yearsParam
+        .split(",")
+        .map((y) => parseInt(y, 10))
+        .filter((y) => !isNaN(y));
+      setSelectedSessionYears(years);
+    }
+
+    const subjectsParam = params.get("subjects");
+    if (subjectsParam) {
+      const subjectValues = subjectsParam.split(",").filter(Boolean);
+      pendingInitialSubjectsRef.current = subjectValues;
+    }
+
+    initializedRef.current = true;
+  }, []);
+
+  useEffect(() => {
+    if (!pendingInitialSubjectsRef.current) return;
+    if (!subjects || subjects.length === 0) return;
+
+    const allOptions = subjects.flatMap((g) =>
+      g.subjects.map((s) => ({ value: s.name, label: s.name }))
+    );
+
+    const mapped = pendingInitialSubjectsRef.current
+      .map((val) => allOptions.find((o) => o.value === val))
+      .filter(Boolean);
+
+    if (mapped.length > 0) {
+      setSelectedSubject(mapped);
+    }
+
+    pendingInitialSubjectsRef.current = null;
+  }, [subjects]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const params = new URLSearchParams();
+
+    if (selectedCoursework) params.set("cw", selectedCoursework);
+
+    if (selectedSubject && selectedSubject.length > 0) {
+      params.set("subjects", selectedSubject.map((s) => s.value).join(","));
+    }
+
+    if (selectedLevels && selectedLevels.length > 0)
+      params.set("levels", selectedLevels.join(","));
+
+    if (selectedGrades && selectedGrades.length > 0)
+      params.set("grades", selectedGrades.join(","));
+
+    if (selectedSessionMonths && selectedSessionMonths.length > 0)
+      params.set("months", selectedSessionMonths.join(","));
+
+    if (selectedSessionYears && selectedSessionYears.length > 0)
+      params.set("years", selectedSessionYears.join(","));
+
+    const query = params.toString();
+    const newUrl = query
+      ? `${window.location.pathname}?${query}`
+      : window.location.pathname;
+    window.history.replaceState(null, "", newUrl);
+  }, [
+    selectedCoursework,
+    selectedSubject,
+    selectedLevels,
+    selectedGrades,
+    selectedSessionMonths,
+    selectedSessionYears,
+  ]);
 
   return (
     <aside>

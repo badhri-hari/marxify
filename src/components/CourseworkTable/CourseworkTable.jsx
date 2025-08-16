@@ -90,28 +90,35 @@ export default function CourseworkTable({
                 let appendedComment = comment || "";
                 if (comment) {
                   if (tags.includes("IB Exemplar")) {
-                    appendedComment += ` ` + (
-                      <em>This is a graded exemplar "provided" by the IB.</em>
-                    );
-                  } else if (tags.includes("Clastify")) {
-                    appendedComment += ` ` + (
-                      <em>Liberated from Crapify.</em>
-                    );
+                    appendedComment +=
+                      ` ` +
+                      <em>This is a graded exemplar provided by the IB.</em>;
+                  } else if (tags.includes("Crapify")) {
+                    appendedComment += ` ` + <em>Liberated from Crapify.</em>;
                   }
                 }
 
                 return (
                   <tr key={id} className="table-row">
-                    <td className="table-title-td" aria-label={title}>
-                      <a
-                        href={link}
-                        className="table-title-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <a
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={title}
+                    >
+                      <td
+                        className="table-title-td"
+                        style={{
+                          border: "0px solid red",
+                          borderBottom: "1px solid #666",
+                          borderLeft: "1px solid #666",
+                          display: "flex",
+                          flex: "1",
+                        }}
                       >
-                        {title}
-                      </a>
-                    </td>
+                        <span className="table-title-link">{title}</span>
+                      </td>
+                    </a>
                     <td className="table-subject-td" aria-label={subject}>
                       <span>{subject}</span>
                     </td>
@@ -132,19 +139,31 @@ export default function CourseworkTable({
                       </td>
                     )}
                     <td className="table-comment-td">
-                      {comment ? (
-                        <span aria-label={comment}>
-                          {comment}
-                          {tags.includes("IB Exemplar") && (
-                            <em> This is a graded exemplar "provided" by the IB.</em>
+                      <span
+                        aria-label={
+                          comment ||
+                          (tags.includes("IB Exemplar") ||
+                          tags.includes("Crapify")
+                            ? ""
+                            : "No comment")
+                        }
+                      >
+                        {comment && <>{comment} </>}
+
+                        {tags.includes("IB Exemplar") && (
+                          <em>This is a graded exemplar provided by the IB.</em>
+                        )}
+                        {tags.includes("Crapify") &&
+                          !tags.includes("IB Exemplar") && (
+                            <em>Liberated from Crapify.</em>
                           )}
-                          {tags.includes("Clastify") && !tags.includes("IB Exemplar") && (
-                            <em> Liberated from Crapify.</em>
+
+                        {!comment &&
+                          !tags.includes("IB Exemplar") &&
+                          !tags.includes("Crapify") && (
+                            <span aria-hidden="true">—</span>
                           )}
-                        </span>
-                      ) : (
-                        <span aria-hidden="true">—</span>
-                      )}
+                      </span>
                     </td>
                   </tr>
                 );

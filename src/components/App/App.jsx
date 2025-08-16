@@ -19,7 +19,7 @@ export default function App() {
   const [selectedSessionMonths, setSelectedSessionMonths] = useState([]);
   const [selectedSessionYears, setSelectedSessionYears] = useState([]);
 
-  const [sortOption, setSortOption] = useState("default");
+  const [sortOption, setSortOption] = useState("latest");
 
   const [viewMode, setViewMode] = useState(() => {
     const stored = localStorage.getItem("viewMode");
@@ -59,7 +59,6 @@ export default function App() {
               title="Sort coursework"
               aria-label="Sort coursework"
             >
-              <option value="default">Default</option>
               <option value="latest">Latest</option>
               <option value="oldest">Oldest</option>
               <option value="marks">Marks</option>

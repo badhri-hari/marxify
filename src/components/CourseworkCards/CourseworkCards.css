@@ -145,20 +145,20 @@ main {
   border-top-color: #14a1d1;
 }
 
-.clastify-popup {
+.crapify-popup {
   border: 2.5px solid #837b79;
 }
 
-.clastify-popup.above.right::after {
+.crapify-popup.above.right::after {
   border-bottom-color: #837b79;
 }
-.clastify-popup.above.left::after {
+.crapify-popup.above.left::after {
   border-bottom-color: #837b79;
 }
-.clastify-popup.below.right::after {
+.crapify-popup.below.right::after {
   border-top-color: #837b79;
 }
-.clastify-popup.below.left::after {
+.crapify-popup.below.left::after {
   border-top-color: #837b79;
 }
 
@@ -179,9 +179,9 @@ main {
   vertical-align: middle;
 }
 
-.clastify-icon {
-  width: 29px;
-  height: 29px;
+.crapify-icon {
+  width: 23px;
+  height: 23px;
   margin: -16px 10px -5px auto;
   border-radius: 100%;
   display: inline-block;

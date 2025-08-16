@@ -4,15 +4,7 @@ export default function Footer() {
   return (
     <footer aria-hidden>
       Originally compiled by IB Documents (1) Team · Recovered thanks to{" "}
-      <a
-        href="https://archive.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="footer-link"
-      >
-        Internet Archive
-      </a>{" "}
-      · Provided by{" "}
+      Internet Archive · Provided by{" "}
       <a
         href="https://pirateib.xyz/"
         target="_blank"
