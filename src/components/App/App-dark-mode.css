@@ -180,11 +180,21 @@
   }
 
   .table-title-link {
-    color: #3391ff !important;
+    color: #63acff !important;
   }
 
   .table-title-td:hover .table-title-link {
     color: white !important;
     text-decoration: none !important;
+  }
+
+  .coursework-table th::selection,
+  .coursework-table td::selection,
+  .table-title-link::selection,
+  .table-comment-td span::selection,
+  .table-subject-td span::selection,
+  .table-type-td span::selection {
+    background-color: rgba(241, 70, 104, 0.65) !important;
+    color: rgba(255, 255, 255, 1) !important;
   }
 }
