@@ -26,3 +26,4 @@ build
 
 # Custom files
 .vercel
+src/data/
