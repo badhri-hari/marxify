@@ -6,9 +6,8 @@
     width: auto;
     overflow-y: hidden;
     padding: 16px;
-    padding-bottom: 0;
     border-right: none;
-    border-bottom: 0.5px solid black;
+    border-bottom: none;
   }
 
   section {

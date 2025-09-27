@@ -15,7 +15,7 @@ export default function Header() {
           <img
             src="/karl.svg"
             style={{ height: "140px" }}
-            alt="Stylized image of Karl Marx"
+            alt="Stylized black-and-white image of Karl Marx"
           />
 
           <img
@@ -36,15 +36,18 @@ export default function Header() {
       <hr className="header-hr" />
 
       <p className="header-paragraph">
-        If you would like to donate your IB coursework and contribute to
-        Marxify, please email us at{" "}
-        <a
-          href="mailto:pirateib.qfz17@aleeas.com"
-          className="header-link"
-          aria-label="Email PirateIB at pirateib.qfz17 at aleeas dot com to donate your IB coursework"
-        >
-          pirateib.qfz17@aleeas.com
-        </a>
+        Would you like to donate your IB coursework and contribute to Marxify?{" "}
+        <span>
+          <a
+            href="https://upload-to.marxify.pirateib.xyz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="header-link"
+            aria-label="Click on this link to go to the Marxify coursework uploader page"
+          >
+            Click here!
+          </a>
+        </span>
       </p>
     </header>
   );

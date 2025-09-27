@@ -18,8 +18,12 @@ header {
   margin-bottom: 1.5rem;
 }
 
+.header-link {
+  text-decoration: none !important;
+}
+
 .header-link:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .header-strong {
@@ -48,10 +52,17 @@ header {
   padding: 0;
 }
 
-.header-paragraph a {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 0.75px;
+.header-paragraph span a {
+  margin: 0 2px;
+  padding: 8px 10px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  color: #f14668;
+  font-weight: 600;
+}
+
+.header-paragraph a:hover {
+  opacity: 0.75;
 }
 
 @media (prefers-color-scheme: light) {

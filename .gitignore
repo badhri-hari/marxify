@@ -27,3 +27,4 @@ build
 # Custom files
 .vercel
 src/data/
+uploader/

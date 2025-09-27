@@ -20,4 +20,20 @@
     color: rgba(255, 255, 255, 0.95);
     font-size: 1.2rem;
   }
+
+  .header-paragraph span {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .header-paragraph span a {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .header-paragraph a:hover {
+    opacity: 1;
+  }
 }

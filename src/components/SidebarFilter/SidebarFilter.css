@@ -56,7 +56,6 @@ fieldset {
 
 .cw-button:hover {
   background-color: rgba(241, 70, 104, 0.06);
-  border-color: #b02a4c;
 }
 
 .cw-button.selected {
