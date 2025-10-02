@@ -29,8 +29,11 @@
 
   .header-paragraph span a {
     margin: 0;
+    padding: 11px 14px;
     white-space: nowrap;
     overflow: hidden;
+    font-size: 1.05em;
+    border: 1px solid #c52f54;
   }
 
   .header-paragraph a:hover {

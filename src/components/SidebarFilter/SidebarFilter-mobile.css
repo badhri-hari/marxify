@@ -15,7 +15,7 @@
   }
 
   .sidebar-h2 {
-    font-size: 18px;
+    font-size: 21px;
     margin-bottom: 2px;
   }
 
@@ -28,12 +28,25 @@
     gap: 9px;
   }
 
+  .cw-button {
+    padding: 10px;
+    font-size: 0.95em;
+  }
+
   .tok-separator {
     display: none;
   }
 
   .checkbox-group {
     gap: 5px;
+  }
+
+  .checkbox-label {
+    font-size: 1rem;
+  }
+
+  .checkbox-label input {
+    margin-right: 8.5px;
   }
 
   .series-separator::before,
@@ -49,7 +62,12 @@
   }
 
   .clear-filters-container {
-    margin-top: -4px;
-    margin-bottom: 0;
+    margin-top: -5px;
+    margin-bottom: -15px;
   }
+  
+  .clear-filters-button {
+    padding: 9px 15px;
+    font-size: 0.925rem;
+  }  
 }
